@@ -111,3 +111,27 @@ form button {
 form button:hover {
   background-color: #005bb5;
 }
+body {
+  font-family: Arial, sans-serif;
+}
+details {
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  border-radius: 5px;
+}
+summary {
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+th, td {
+  padding: 8px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
