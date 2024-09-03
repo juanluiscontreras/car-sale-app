@@ -55,5 +55,10 @@
   "carDetails": {
     "title": "Especificaciones del Suzuki Swift 1.5 VVT 2007",
     "subtitle": "Acá podés ver TODOS los detalles del auto"
+  },
+  "promotion": {
+    "title": "¿Quieres una página como esta para tu auto?",
+    "description": "¡Contáctame y creemos una página atractiva para tu vehículo!",
+    "contactButton": "Contáctame"
   }
 }
