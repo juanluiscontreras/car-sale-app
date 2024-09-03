@@ -5,38 +5,38 @@
   },
   "carSaleInfo": {
     "history": {
-      "title": "The Story of This Car",
-      "description1": "We are the second owners of this incredible car. After saving for a long time, we decided to search for our first serious car, and what an adventure it was!",
-      "description2": "The previous owners took great care of it, doing all the maintenance, and we continued that care. It's been used for city driving and trips to the coast. We even had a pre-sale check that you can see!"
+      "title": "The history of this car",
+      "description1": "We are the second owners of this amazing car. After saving for a while, we decided to look for our first serious car, and what an adventure it was! We researched for months, asked everyone we knew, read forums... and although this car was a bit out of our budget, we were lucky to find it and that the previous owners were super nice!",
+      "description2": "They were a family that took great care of it since they got it from the dealership. They kept up with all the maintenance, used it for trips and city driving, and sold it because they were going on a trip. We've continued that good care, using it for driving around Buenos Aires and escaping to the coast. We even did a pre-sale checkup that you can see!"
     },
     "whySell": {
-      "title": "Why Are We Selling It?",
-      "description": "It's a family matter. We had the opportunity to switch to a newer model. Even though we love it, it's time to say goodbye and let someone else enjoy it."
+      "title": "Why are we selling it?",
+      "description": "Honestly, it's a family matter. We had the opportunity to upgrade to a newer model. Although we love it, it's time to say goodbye and let someone else enjoy it."
     },
     "whyBuy": {
-      "title": "Why Buy This Car?",
-      "description": "I've done the hard work for you: I reviewed over 15 cars before deciding on this one. Three different mechanics confirmed it's the best option in terms of quality and price."
+      "title": "Why should you buy this car?",
+      "description": "I've done the hard work for you: I checked out over 15 cars before deciding on this one. I went through everything, from poorly maintained cars to shady sellers. In the end, this car was by far the winner, and three different mechanics confirmed it: It's the best quality-price option! With proper maintenance, this car will last you many more kilometers."
     },
     "doubts": {
-      "title": "\"But aren't there newer and cheaper cars?\"",
-      "description": "Yes, but the difference with other Mercosur cars is HUGE. Although this one has its years, it's still solid. No strange noises, the materials are in excellent condition, and I've only taken it to the shop for routine maintenance."
+      "title": "\"But, there are newer and cheaper cars in its range, why choose a Japanese car?\"",
+      "description": "Yes, but here's the thing: the difference with other cars in its range from the Mercosur is HUGE. Even though this one has some years on it, it's still solid. It doesn't make strange noises, the materials are in excellent condition, and I've only taken it to the workshop for routine maintenance. And the best part, it has everything that other brands have cut out, and you don't need to do anything to enjoy it."
     },
     "ideal": {
       "title": "Who is this car ideal for?",
-      "city": "For city driving: It doesn't consume much and can be parked anywhere, without attracting attention!",
-      "kids": "For taking the kids to school: Although it doesn't seem like it, it has a lot of space inside.",
-      "firstCar": "For being your first car: Get in and go, no complications.",
-      "travel": "For traveling: It's super stable on the road, with a bit of a sporty touch. You'll enjoy every kilometer!"
+      "city": "For getting around the city: It doesn't consume much and you can park it anywhere, without drawing attention!",
+      "kids": "For taking the kids to school: Though it might not seem like it, it has plenty of space inside.",
+      "firstCar": "For being your first car: Just get in and drive, no complications.",
+      "travel": "For traveling: It's super stable on the road, even has a sporty touch. You'll enjoy every kilometer!"
     },
     "interested": "Interested?",
-    "contact": "Contact me and let's arrange a time for you to see it in person!"
+    "contact": "Write to me and we'll arrange for you to see it in person!"
   },
   "maintenance": {
     "title": "Maintenance",
-    "description": "We did everything that was indicated in the pre-sale inspection, and everything was verified by the workshop we took it to.",
+    "description": "We did everything indicated in the pre-sale review, and it was all verified by the workshop we took it to.",
     "dec2023": {
       "title": "December 2023:",
-      "details": "Clutch (corea, one of Suzuki's OEMs), axle boot kit."
+      "details": "Clutch (corea, one of the OEMs of Suzuki), axle boot kit."
     },
     "jan2024": {
       "title": "January 2024:",
@@ -50,7 +50,7 @@
       "title": "August 2024:",
       "details": "Front suspension (Sachs). Control arm bushings, strut mounts, stabilizer bar bushings. Alignment and balancing."
     },
-    "vtv": "Up-to-date vehicle technical inspection (VTV). Glass and auto parts engraving."
+    "vtv": "Up-to-date VTV. Engraved glass and auto parts. 157,000 km."
   },
   "carDetails": {
     "title": "Specifications of the Suzuki Swift 1.5 VVT 2007",

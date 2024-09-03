@@ -6,8 +6,8 @@
   "carSaleInfo": {
     "history": {
       "title": "La historia de este auto",
-      "description1": "Somos los segundos dueños de este increíble auto. Después de ahorrar por un buen tiempo, nos decidimos a buscar nuestro primer coche en serio, ¡y vaya que fue una aventura!",
-      "description2": "Los dueños anteriores lo cuidaron mucho, haciéndole todos los mantenimientos, y nosotros continuamos con ese cuidado. Lo hemos usado para movernos por la ciudad y escaparnos a la costa. ¡Hasta hicimos un chequeo pre-venta que podés ver!"
+      "description1": "Somos los segundos dueños de este increíble auto. Después de ahorrar por un buen tiempo, nos decidimos a buscar nuestro primer coche en serio, ¡y vaya que fue una aventura! Investigamos meses, preguntamos a todo el mundo, leímos foros... y aunque este coche estaba un poco fuera de nuestro presupuesto, ¡tuvimos la suerte de encontrarlo y de que los dueños anteriores fueran súper buena onda!",
+      "description2": "Ellos eran una familia que lo cuidó desde que lo sacaron de la concesionaria. Le hicieron todos los mantenimientos al día, lo usaban para viajar y moverse por la ciudad, y lo vendieron porque se iban de viaje. Nosotros seguimos ese buen cuidado, y lo hemos usado para movernos por Capital Federal y escaparnos a la costa. ¡Hasta hicimos un chequeo pre-venta que podés ver!"
     },
     "whySell": {
       "title": "¿Por qué lo vendemos?",
@@ -15,11 +15,11 @@
     },
     "whyBuy": {
       "title": "¿Por qué comprar este auto?",
-      "description": "Ya hice el trabajo duro por vos: revisé más de 15 autos antes de decidirme por este. Tres mecánicos distintos me confirmaron que es la mejor opción en cuanto a calidad-precio."
+      "description": "Ya hice el trabajo duro por vos: revisé más de 15 autos antes de decidirme por este. Pasé por todo, desde autos mal mantenidos hasta vendedores dudosos. Al final, este auto fue el ganador por lejos, y tres mecánicos distintos me lo confirmaron: ¡Es la mejor opción en relación calidad-precio! Con el mantenimiento correcto, este auto te va a durar un montón de kilómetros más."
     },
     "doubts": {
-      "title": "\"¿Pero hay autos más nuevos y baratos?\"",
-      "description": "Sí, pero la diferencia con otros autos del Mercosur es ENORME. Aunque este tenga sus años, sigue siendo sólido. No hace ruidos extraños, los materiales están en excelente estado, y solo lo llevé al taller para el mantenimiento de rutina."
+      "title": "\"Pero, hay autos más nuevos y baratos en su rango, ¿Por qué elegiria un auto japonés?\"",
+      "description": "Sí, pero aquí está el tema: la diferencia con otros autos de su gama provenientes del Mercosur es ENORME. Aunque este tenga sus años, sigue siendo sólido. No hace ruidos extraños, los materiales están en excelente estado, y solo lo llevé al taller para el mantenimiento de rutina. Y lo mejor, trae todo lo que otras marcas ya recortaron, y no hay que hacerle nada para disfrutarlo."
     },
     "ideal": {
       "title": "¿Para quién es ideal este auto?",
@@ -50,15 +50,15 @@
       "title": "Agosto 2024:",
       "details": "Suspensión delantera (Sachs). Bujes de parrillas, cazoletas, bujes de barra estabilizadora. Alineación y balanceo."
     },
-    "vtv": "VTV al día. Grabado de cristales y autopartes."
+    "vtv": "VTV al día. Grabado de cristales y autopartes. 157mil km."
   },
   "carDetails": {
     "title": "Especificaciones del Suzuki Swift 1.5 VVT 2007",
     "subtitle": "Acá podés ver TODOS los detalles del auto"
   },
-  "promotion": {
-    "title": "¿Quieres una página como esta para tu auto?",
-    "description": "¡Contáctame y creemos una página atractiva para tu vehículo!",
-    "contactButton": "Contáctame"
-  }
+    "promotion": {
+      "title": "¿Quieres una página como esta para tu auto?",
+      "description": "¡Contáctame y creemos una página atractiva para tu vehículo!",
+      "contactButton": "Contáctame"
+    }
 }
