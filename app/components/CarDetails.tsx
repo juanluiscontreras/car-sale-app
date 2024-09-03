@@ -261,7 +261,7 @@ const CarDetails: React.FC = () => {
           <td align="left" data-sheets-value="{ &quot;1&quot;: 2, &quot;2&quot;: &quot;Inyección Indirecta.&quot;}">Inyección Indirecta.</td>
         </tr>
         <tr>
-          <td height="23" align="left" data-sheets-value="{ &quot;1&quot;: 2, &quot;2&quot;: &quot;Automatismo de parada y arranque del motor (\&quot;Stop\/Start\&quot;)&quot;}">Automatismo de parada y arranque del motor ("Stop/Start")</td>
+          <td height="23" align="left" data-sheets-value="{ &quot;1&quot;: 2, &quot;2&quot;: &quot;Automatismo de parada y arranque del motor (\&quot;Stop\/Start\&quot;)&quot;}">Automatismo de parada y arranque del motor (Stop/Start)</td>
           <td align="left" data-sheets-value="{ &quot;1&quot;: 2, &quot;2&quot;: &quot;No&quot;}">No</td>
         </tr>
         <tr>
