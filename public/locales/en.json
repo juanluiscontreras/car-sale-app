@@ -1,10 +1,59 @@
 {
-  "title": "Car for Sale",
-  "description": "This car is in excellent condition. Check out the details and book a test drive.",
-  "historyTitle": "Car History",
-  "history": "This car was purchased new in 2015 and has been well maintained...",
-  "maintenanceTitle": "Maintenance Record",
-  "maintenance": "Regularly serviced at authorized dealerships. Recent oil change and tire replacement.",
-  "specsTitle": "Technical Specifications",
-  "specs": "Engine: V8, Transmission: Automatic, Mileage: 50,000 miles"
+  "banner": {
+    "title": "The perfect companion for every day!",
+    "subtitle": "Suzuki Swift 1.5 VVT 16V 2007 - Agile, reliable, and ready for adventure 🚗💨"
+  },
+  "carSaleInfo": {
+    "history": {
+      "title": "The Story of This Car",
+      "description1": "We are the second owners of this incredible car. After saving for a long time, we decided to search for our first serious car, and what an adventure it was!",
+      "description2": "The previous owners took great care of it, doing all the maintenance, and we continued that care. It's been used for city driving and trips to the coast. We even had a pre-sale check that you can see!"
+    },
+    "whySell": {
+      "title": "Why Are We Selling It?",
+      "description": "It's a family matter. We had the opportunity to switch to a newer model. Even though we love it, it's time to say goodbye and let someone else enjoy it."
+    },
+    "whyBuy": {
+      "title": "Why Buy This Car?",
+      "description": "I've done the hard work for you: I reviewed over 15 cars before deciding on this one. Three different mechanics confirmed it's the best option in terms of quality and price."
+    },
+    "doubts": {
+      "title": "\"But aren't there newer and cheaper cars?\"",
+      "description": "Yes, but the difference with other Mercosur cars is HUGE. Although this one has its years, it's still solid. No strange noises, the materials are in excellent condition, and I've only taken it to the shop for routine maintenance."
+    },
+    "ideal": {
+      "title": "Who is this car ideal for?",
+      "city": "For city driving: It doesn't consume much and can be parked anywhere, without attracting attention!",
+      "kids": "For taking the kids to school: Although it doesn't seem like it, it has a lot of space inside.",
+      "firstCar": "For being your first car: Get in and go, no complications.",
+      "travel": "For traveling: It's super stable on the road, with a bit of a sporty touch. You'll enjoy every kilometer!"
+    },
+    "interested": "Interested?",
+    "contact": "Contact me and let's arrange a time for you to see it in person!"
+  },
+  "maintenance": {
+    "title": "Maintenance",
+    "description": "We did everything that was indicated in the pre-sale inspection, and everything was verified by the workshop we took it to.",
+    "dec2023": {
+      "title": "December 2023:",
+      "details": "Clutch (corea, one of Suzuki's OEMs), axle boot kit."
+    },
+    "jan2024": {
+      "title": "January 2024:",
+      "details": "2 new tires. Alignment and balancing."
+    },
+    "feb2024": {
+      "title": "February 2024:",
+      "details": "Cylinder head gasket replacement. New spark plugs. New battery. Oil and filter change."
+    },
+    "aug2024": {
+      "title": "August 2024:",
+      "details": "Front suspension (Sachs). Control arm bushings, strut mounts, stabilizer bar bushings. Alignment and balancing."
+    },
+    "vtv": "Up-to-date vehicle technical inspection (VTV). Glass and auto parts engraving."
+  },
+  "carDetails": {
+    "title": "Specifications of the Suzuki Swift 1.5 VVT 2007",
+    "subtitle": "Here you can see ALL the details of the car"
+  }
 }

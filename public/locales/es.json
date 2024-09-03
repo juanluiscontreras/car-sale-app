@@ -1,10 +1,59 @@
 {
-  "title": "Car for Sale",
-  "description": "This car is in excellent condition. Check out the details and book a test drive.",
-  "historyTitle": "Car History",
-  "history": "This car was purchased new in 2015 and has been well maintained...",
-  "maintenanceTitle": "Maintenance Record",
-  "maintenance": "Regularly serviced at authorized dealerships. Recent oil change and tire replacement.",
-  "specsTitle": "Technical Specifications",
-  "specs": "Engine: V8, Transmission: Automatic, Mileage: 50,000 miles"
+  "banner": {
+    "title": "¡El compañero perfecto para cada día!",
+    "subtitle": "Suzuki Swift 1.5 VVT 16V 2007 - Ágil, confiable y listo para la aventura 🚗💨"
+  },
+  "carSaleInfo": {
+    "history": {
+      "title": "La historia de este auto",
+      "description1": "Somos los segundos dueños de este increíble auto. Después de ahorrar por un buen tiempo, nos decidimos a buscar nuestro primer coche en serio, ¡y vaya que fue una aventura!",
+      "description2": "Los dueños anteriores lo cuidaron mucho, haciéndole todos los mantenimientos, y nosotros continuamos con ese cuidado. Lo hemos usado para movernos por la ciudad y escaparnos a la costa. ¡Hasta hicimos un chequeo pre-venta que podés ver!"
+    },
+    "whySell": {
+      "title": "¿Por qué lo vendemos?",
+      "description": "La verdad, es un tema familiar. Tuvimos la oportunidad de cambiar a un modelo más nuevo. Aunque le tenemos mucho cariño, es momento de despedirnos y que alguien más lo disfrute."
+    },
+    "whyBuy": {
+      "title": "¿Por qué comprar este auto?",
+      "description": "Ya hice el trabajo duro por vos: revisé más de 15 autos antes de decidirme por este. Tres mecánicos distintos me confirmaron que es la mejor opción en cuanto a calidad-precio."
+    },
+    "doubts": {
+      "title": "\"¿Pero hay autos más nuevos y baratos?\"",
+      "description": "Sí, pero la diferencia con otros autos del Mercosur es ENORME. Aunque este tenga sus años, sigue siendo sólido. No hace ruidos extraños, los materiales están en excelente estado, y solo lo llevé al taller para el mantenimiento de rutina."
+    },
+    "ideal": {
+      "title": "¿Para quién es ideal este auto?",
+      "city": "Para moverte por la ciudad: No gasta nada y lo estacionás en cualquier lado, ¡sin llamar la atención!",
+      "kids": "Para llevar a los nenes a la escuela: Aunque no lo parezca, tiene un montón de espacio por dentro.",
+      "firstCar": "Para ser tu primer auto: Subite y andá, no hay complicaciones.",
+      "travel": "Para viajar: Es súper estable en ruta, hasta tiene un toque deportivo. ¡Vas a disfrutar cada kilómetro!"
+    },
+    "interested": "¿Te interesa?",
+    "contact": "¡Escribime y coordinamos para que lo veas en persona!"
+  },
+  "maintenance": {
+    "title": "Mantenimiento",
+    "description": "Le realizamos todo lo que indicaron en la revisión preventa, y todo fue verificado por el taller al que lo llevamos.",
+    "dec2023": {
+      "title": "Diciembre 2023:",
+      "details": "Embrague (corea, uno de los OEM de Suzuki), kit fuelles de semieje."
+    },
+    "jan2024": {
+      "title": "Enero 2024:",
+      "details": "2 neumáticos nuevos. Alineación y balanceo."
+    },
+    "feb2024": {
+      "title": "Febrero 2024:",
+      "details": "Cambio de junta de tapa de cilindros. Bujías nuevas. Batería nueva. Cambio de aceites y filtros."
+    },
+    "aug2024": {
+      "title": "Agosto 2024:",
+      "details": "Suspensión delantera (Sachs). Bujes de parrillas, cazoletas, bujes de barra estabilizadora. Alineación y balanceo."
+    },
+    "vtv": "VTV al día. Grabado de cristales y autopartes."
+  },
+  "carDetails": {
+    "title": "Especificaciones del Suzuki Swift 1.5 VVT 2007",
+    "subtitle": "Acá podés ver TODOS los detalles del auto"
+  }
 }

@@ -19,10 +19,10 @@ const ContactForm = () => {
 
     emailjs
       .send(
-        'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-        'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+        'service_j05kt6s', // Replace with your EmailJS service ID
+        'template_j4odjin', // Replace with your EmailJS template ID
         formState,
-        'YOUR_USER_ID' // Replace with your EmailJS user ID
+        'iIiSAOKwQLTGi67kc' // Replace with your EmailJS user ID
       )
       .then(
         (result) => {

@@ -6,6 +6,10 @@ import ContactForm from './components/ContactForm';
 import ImageGallery from './components/ImageGallery';
 import './globals.css'; // Import the global styles
 import CarDetails from './components/CarDetails';
+import WhatsAppButton from './components/WhatsappButton';
+import CarSaleInfo from './components/CarSaleInfo';
+import Maintenance from './components/Mainteinance';
+import Banner from './components/Banner';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -15,8 +19,7 @@ export default function Home() {
       <LanguageSwitcher />
 
       <section className="section text-center">
-        <h1 className="text-5xl font-bold">{t('title')}</h1>
-        <p className="text-lg mt-4">{t('description')}</p>
+        <Banner/>
       </section>
 
       <section className="section">
@@ -28,8 +31,11 @@ export default function Home() {
       </section>
 
       <section className="section">
-        <h2 className="text-3xl font-bold text-center">{t('historyTitle')}</h2>
-        <p className="text-center mt-4">{t('history')}</p>
+        <CarSaleInfo/>
+      </section>
+
+      <section className="section">
+        <Maintenance/>
       </section>
 
       <section className="section">
@@ -39,6 +45,11 @@ export default function Home() {
       <section className="section">
         <ContactForm />
       </section>
+
+      <section className="section">
+        <WhatsAppButton />
+      </section>
+
     </main>
   );
 }
