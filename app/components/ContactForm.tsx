@@ -1,21 +1,59 @@
 'use client'; // Add this line at the top
-
-import React from 'react';
+import { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 const ContactForm = () => {
+  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+  const [successMessage, setSuccessMessage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    setFormState({
+      ...formState,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    emailjs
+      .send(
+        'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
+        'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+        formState,
+        'YOUR_USER_ID' // Replace with your EmailJS user ID
+      )
+      .then(
+        (result) => {
+          setSuccessMessage('Message sent successfully!');
+          setErrorMessage('');
+          setFormState({ name: '', email: '', message: '' });
+        },
+        (error) => {
+          setErrorMessage('Failed to send the message. Please try again later.');
+          setSuccessMessage('');
+        }
+      );
+  };
+
   return (
-    <form className="max-w-md mx-auto p-6 bg-white rounded-lg shadow-lg">
-      <h3 className="text-xl font-bold mb-4">Contact Me</h3>
-      <label className="block mb-2">Name</label>
-      <input type="text" className="w-full p-2 mb-4 border rounded" placeholder="Your Name" />
-      
-      <label className="block mb-2">Email</label>
-      <input type="email" className="w-full p-2 mb-4 border rounded" placeholder="Your Email" />
-      
-      <label className="block mb-2">Message</label>
-      <textarea className="w-full p-2 mb-4 border rounded" placeholder="Your Message"></textarea>
-      
-      <button type="submit" className="w-full p-2 bg-primary text-white rounded">Send</button>
+    <form onSubmit={sendEmail}>
+      <div>
+        <label>Name:</label>
+        <input type="text" name="name" value={formState.name} onChange={handleChange} required />
+      </div>
+      <div>
+        <label>Email:</label>
+        <input type="email" name="email" value={formState.email} onChange={handleChange} required />
+      </div>
+      <div>
+        <label>Message:</label>
+        <textarea name="message" value={formState.message} onChange={handleChange} required />
+      </div>
+      <button type="submit">Send</button>
+      {successMessage && <p>{successMessage}</p>}
+      {errorMessage && <p>{errorMessage}</p>}
     </form>
   );
 };
