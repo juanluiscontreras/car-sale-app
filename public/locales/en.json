@@ -60,5 +60,10 @@
     "title": "Want a page like this for your own car?",
     "description": "Contact me and let's create an engaging page for your vehicle!",
     "contactButton": "Contact Me"
-  }
+  },
+"imageGallery": {
+  "title": "Complete transparency in aesthetic details",
+  "description": "We want you to know every aspect of this car. Here, we show you the aesthetic details it has, beyond normal use. Nothing that affects its functionality, just those marks that tell its story."
+}
+
 }
