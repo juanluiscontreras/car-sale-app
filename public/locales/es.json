@@ -64,5 +64,11 @@
   "imageGallery": {
     "title": "Transparencia total en los detalles estéticos",
     "description": "Queremos que conozcas cada aspecto de este auto. Aquí te mostramos los detalles estéticos que tiene, más allá del uso normal. Nada que afecte su funcionamiento, solo esas marcas que cuentan su historia."
+  },
+  "highlights": {
+    "title": "Destacamos",
+    "point1": "Usa nafta súper, es re barato llenarle el tanque y no gasta.",
+    "point2": "Paga poco de patente y de seguro.",
+    "point3": "Tiene motor con cadena aspirado japonés, irrompible."
   }
 }

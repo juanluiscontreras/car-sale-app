@@ -64,6 +64,12 @@
 "imageGallery": {
   "title": "Complete transparency in aesthetic details",
   "description": "We want you to know every aspect of this car. Here, we show you the aesthetic details it has, beyond normal use. Nothing that affects its functionality, just those marks that tell its story."
+},
+"highlights": {
+  "title": "Highlights",
+  "point1": "Uses super unleaded fuel, it's very cheap to fill up and doesn't consume much.",
+  "point2": "Low registration and insurance costs.",
+  "point3": "Features a Japanese aspirated engine with a chain, virtually indestructible."
 }
 
 }

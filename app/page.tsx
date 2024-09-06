@@ -11,6 +11,7 @@ import CarSaleInfo from './components/CarSaleInfo';
 import Maintenance from './components/Mainteinance';
 import Banner from './components/Banner';
 import PromotionBanner from './components/PromotionBanner';
+import Highlights from './components/Highlights';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -26,6 +27,11 @@ export default function Home() {
       <section className="section py-8">
         <Viewer />
       </section>
+
+      <section className="section py-8">
+        <Highlights />
+      </section>
+      
 
       <section className="section py-8">
         <CarDetails />
