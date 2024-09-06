@@ -1,30 +1,19 @@
-import { useEffect } from 'react';
+'use client';
+import React from 'react';
+import { FaWhatsapp } from 'react-icons/fa'; // Ensure you have react-icons installed
 
 const WhatsAppButton = () => {
-  useEffect(() => {
-    const button = document.createElement('a');
-    button.href = 'https://wa.me/5491130282508?text=I%20am%20interested%20in%20your%20car';
-    button.target = '_blank';
-    button.style.position = 'fixed';
-    button.style.bottom = '20px';
-    button.style.right = '20px';
-    button.style.backgroundColor = '#25D366';
-    button.style.color = 'white';
-    button.style.borderRadius = '50%';
-    button.style.padding = '15px';
-    button.style.fontSize = '20px';
-    button.style.textAlign = 'center';
-    button.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
-    button.style.zIndex = '1000';
-    button.innerHTML = '<i class="fa fa-whatsapp"></i>'; // FontAwesome WhatsApp icon
-    document.body.appendChild(button);
-
-    return () => {
-      document.body.removeChild(button);
-    };
-  }, []);
-
-  return null;
+  return (
+    <a
+      href="https://wa.me/5491130282508?text=I%20am%20interested%20in%20your%20car"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="fixed bottom-6 right-6 bg-[#25D366] text-white rounded-full p-4 text-2xl shadow-lg z-50 flex items-center justify-center transition-transform transform hover:scale-105"
+      aria-label="Chat with us on WhatsApp"
+    >
+      <FaWhatsapp />
+    </a>
+  );
 };
 
 export default WhatsAppButton;

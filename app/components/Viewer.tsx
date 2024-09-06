@@ -5,13 +5,23 @@ import { ReactPhotoSphereViewer } from 'react-photo-sphere-viewer';
 
 const Viewer = () => {
   return (
-    <div style={{ height: '50vh', width: '100%', overflow: 'hidden' }}>
-      <ReactPhotoSphereViewer
-        src="/images/pano.jpg"
-        height="100%"
-        width="100%"
-      />
-    </div>
+    <>
+      <div className="w-full h-64 md:h-96 lg:h-120 overflow-hidden rounded-lg shadow-lg">
+        <ReactPhotoSphereViewer
+          src="/images/pano-exterior.jpg"
+          height="100%"
+          width="100%"
+          container="viewer-container" />
+      </div>
+      <div className="w-full h-64 md:h-96 lg:h-120 overflow-hidden rounded-lg shadow-lg">
+
+        <ReactPhotoSphereViewer
+          src="/images/pano-interior.jpg"
+          height="100%"
+          width="100%"
+          container="viewer-container" />
+      </div>
+    </>
   );
 };
 

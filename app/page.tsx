@@ -16,44 +16,45 @@ export default function Home() {
   const { t } = useTranslation();
 
   return (
-    <main className="container">
+    <main className="container mx-auto px-4 md:px-8 py-8">
       <LanguageSwitcher />
 
-      <section className="section text-center">
-        <Banner/>
+      <section className="section text-center py-8">
+        <Banner />
       </section>
 
-      <section className="section">
+      <section className="section py-8">
         <Viewer />
       </section>
 
-      <section className="section">
-      <CarDetails />
+      <section className="section py-8">
+        <CarDetails />
       </section>
 
-      <section className="section">
-        <CarSaleInfo/>
+      <section className="section py-8">
+        <CarSaleInfo />
       </section>
 
-      <section className="section">
-        <Maintenance/>
+      <section className="section py-8">
+        <Maintenance />
       </section>
 
-      <section className="section">
+      <section className="section py-8">
         <ImageGallery />
       </section>
 
-      <section className="section">
+      <section className="section py-8">
         <ContactForm />
       </section>
 
-      <section className="section">
+      <section className="section py-8">
         <WhatsAppButton />
       </section>
 
-      <section className="section">
-        <PromotionBanner /> {/* Add this here */}
+      <section className="section py-8">
+        <PromotionBanner />
       </section>
     </main>
+
   );
 }

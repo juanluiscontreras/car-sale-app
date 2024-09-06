@@ -7,7 +7,7 @@ const CarDetails: React.FC = () => {
 
   return (
     <div className="max-w-3xl mx-auto p-6 bg-white rounded-lg shadow-md">
-      <h1 className="text-3xl font-bold mb-4 text-center">{t('carDetails.title')}</h1>
+      <h1 className="text-3xl md:text-5xl font-bold mb-4 text-center">{t('carDetails.title')}</h1>
       <h2>{t('carDetails.subtitle')}</h2>
 
       <details>

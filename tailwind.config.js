@@ -3,17 +3,10 @@ module.exports = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
+    './app/**/*.{js,ts,jsx,tsx}', // Include your 'app' directory
   ],
   theme: {
-    extend: {
-      colors: {
-        primary: '#1DA1F2',
-        secondary: '#14171A',
-      },
-      fontFamily: {
-        sans: ['Helvetica Neue', 'Arial', 'sans-serif'],
-      },
-    },
-  },  
+    extend: {},
+  },
   plugins: [],
-}
+};
