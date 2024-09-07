@@ -3,7 +3,12 @@
 import React, { useState, useEffect } from 'react';
 import { ReactPhotoSphereViewer } from 'react-photo-sphere-viewer';
 
-const Viewer = ({ src }) => {
+// Define the type for the Viewer component props
+interface ViewerProps {
+  src: string;
+}
+
+const Viewer: React.FC<ViewerProps> = ({ src }) => {
   const [isPanoramic, setIsPanoramic] = useState(true);
 
   useEffect(() => {
@@ -42,11 +47,11 @@ const Viewer = ({ src }) => {
   );
 };
 
-const ViewerContainer = () => {
+const ViewerContainer: React.FC = () => {
   return (
     <>
       <Viewer src="/images/pano-exterior.jpg" />
-      <br></br>
+      <br />
       <Viewer src="/images/pano-interior.jpg" />
     </>
   );
