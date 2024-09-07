@@ -1,7 +1,12 @@
 {
   "banner": {
     "title": "¡El compañero perfecto para cada día!",
-    "subtitle": "Suzuki Swift 1.5 VVT 16V 2007 - Ágil, confiable y listo para la aventura 🚗💨"
+    "subtitle": "Suzuki Swift 1.5 VVT 16V 2007 157mil km - Ágil, confiable y listo para la aventura 🚗💨"
+  },
+  "price": {
+    "label": "Precio",
+    "carPrice": "7500 USD",
+    "note": "Negociable!"
   },
   "carSaleInfo": {
     "history": {
@@ -33,10 +38,10 @@
   },
   "maintenance": {
     "title": "Mantenimiento",
-    "description": "Le realizamos todo lo que indicaron en la revisión preventa, y todo fue verificado por el taller al que lo llevamos.",
+    "description": "Le realizamos todo lo que nos indicaron quienes lo revisaron para tenerlo al día.",
     "dec2023": {
       "title": "Diciembre 2023:",
-      "details": "Embrague (corea, uno de los OEM de Suzuki), kit fuelles de semieje."
+      "details": "Embrague (marca OEM de Suzuki), kit fuelles de semieje."
     },
     "jan2024": {
       "title": "Enero 2024:",
@@ -48,13 +53,14 @@
     },
     "aug2024": {
       "title": "Agosto 2024:",
-      "details": "Suspensión delantera (Sachs). Bujes de parrillas, cazoletas, bujes de barra estabilizadora. Alineación y balanceo."
+      "details": "Suspensión delantera nueva (marca OEM para Suzuki y Toyota). Bujes de parrillas, cazoletas, bujes de barra estabilizadora. Alineación y balanceo. Cambio de pastillas, purgado de líquido de frenos."
     },
-    "vtv": "VTV al día. Grabado de cristales y autopartes. 157mil km."
+    "vtv": "VTV al día. Grabado de cristales y autopartes."
   },
   "carDetails": {
     "title": "Especificaciones del Suzuki Swift 1.5 VVT 2007",
-    "subtitle": "Acá podés ver TODOS los detalles del auto"
+    "subtitle": "Acá podés ver TODOS los detalles del auto",
+    "detailsButton": "Especificaciones"
   },
   "promotion": {
     "title": "¿Quieres una página como esta para tu auto?",
@@ -66,9 +72,18 @@
     "description": "Queremos que conozcas cada aspecto de este auto. Aquí te mostramos los detalles estéticos que tiene, más allá del uso normal. Nada que afecte su funcionamiento, solo esas marcas que cuentan su historia."
   },
   "highlights": {
-    "title": "Destacamos",
-    "point1": "Usa nafta súper, es re barato llenarle el tanque y no gasta.",
-    "point2": "Paga poco de patente y de seguro.",
-    "point3": "Tiene motor con cadena aspirado japonés, irrompible."
+    "title": "¿Por qué es tu próximo auto?",
+    "point1": "Usa nafta súper, es barato llenarle el tanque y tiene muy bajo consumo en ciudad y en ruta.",
+    "point2": "Pagás muy poco de patente y de seguro.",
+    "point3": "Motor aspirado con cadena de distribución de origen japonés, confiabilidad comprobada."
+  },
+  "contactForm": {
+    "title": "Escribinos",
+    "nameLabel": "Nombre:",
+    "emailLabel": "Email:",
+    "messageLabel": "Mensaje:",
+    "submitButton": "Enviar",
+    "successMessage": "Tu mensaje se envió!",
+    "errorMessage": "Hubo un error, tratá de nuevo, o escribinos al Whatsapp."
   }
 }

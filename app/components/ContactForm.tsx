@@ -1,8 +1,10 @@
 'use client'; // Add this line at the top
 import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import emailjs from 'emailjs-com';
 
 const ContactForm = () => {
+  const { t } = useTranslation();
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
   const [successMessage, setSuccessMessage] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
@@ -26,12 +28,12 @@ const ContactForm = () => {
       )
       .then(
         (result) => {
-          setSuccessMessage('Message sent successfully!');
+          setSuccessMessage(t('contactForm.successMessage'));
           setErrorMessage('');
           setFormState({ name: '', email: '', message: '' });
         },
         (error) => {
-          setErrorMessage('Failed to send the message. Please try again later.');
+          setErrorMessage(t('contactForm.errorMessage'));
           setSuccessMessage('');
         }
       );
@@ -41,12 +43,12 @@ const ContactForm = () => {
     <section className="py-12 bg-gray-100">
       <div className="max-w-4xl mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center text-gray-800">
-          Contact Us
+          {t('contactForm.title')}
         </h2>
         <form onSubmit={sendEmail} className="bg-white p-6 rounded-lg shadow-lg">
           <div className="mb-4">
             <label htmlFor="name" className="block text-sm font-semibold mb-2 text-gray-700">
-              Name:
+              {t('contactForm.nameLabel')}
             </label>
             <input
               type="text"
@@ -60,7 +62,7 @@ const ContactForm = () => {
           </div>
           <div className="mb-4">
             <label htmlFor="email" className="block text-sm font-semibold mb-2 text-gray-700">
-              Email:
+              {t('contactForm.emailLabel')}
             </label>
             <input
               type="email"
@@ -74,7 +76,7 @@ const ContactForm = () => {
           </div>
           <div className="mb-4">
             <label htmlFor="message" className="block text-sm font-semibold mb-2 text-gray-700">
-              Message:
+              {t('contactForm.messageLabel')}
             </label>
             <textarea
               id="message"
@@ -90,7 +92,7 @@ const ContactForm = () => {
             type="submit"
             className="w-full bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out"
           >
-            Send
+            {t('contactForm.submitButton')}
           </button>
           {successMessage && <p className="mt-4 text-green-600">{successMessage}</p>}
           {errorMessage && <p className="mt-4 text-red-600">{errorMessage}</p>}

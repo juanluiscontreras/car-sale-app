@@ -12,6 +12,7 @@ import Maintenance from './components/Mainteinance';
 import Banner from './components/Banner';
 import PromotionBanner from './components/PromotionBanner';
 import Highlights from './components/Highlights';
+import Price from './components/Price';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -25,13 +26,16 @@ export default function Home() {
       </section>
 
       <section className="section py-8">
+        <Price /> {/* Add the Price component here */}
+      </section>
+      
+      <section className="section py-8">
         <Viewer />
       </section>
 
       <section className="section py-8">
         <Highlights />
       </section>
-      
 
       <section className="section py-8">
         <CarDetails />
@@ -50,6 +54,9 @@ export default function Home() {
       </section>
 
       <section className="section py-8">
+        <div className="text-xl font-bold mb-4">
+          {t('carPrice', { price: '7500 USD' })} {/* Reiterate the price */}
+        </div>
         <ContactForm />
       </section>
 
@@ -61,6 +68,5 @@ export default function Home() {
         <PromotionBanner />
       </section>
     </main>
-
   );
 }

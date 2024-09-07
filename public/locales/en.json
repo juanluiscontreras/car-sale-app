@@ -1,42 +1,47 @@
 {
   "banner": {
     "title": "The perfect companion for every day!",
-    "subtitle": "Suzuki Swift 1.5 VVT 16V 2007 - Agile, reliable, and ready for adventure 🚗💨"
+    "subtitle": "Suzuki Swift 1.5 VVT 16V 2007 157k km - Agile, reliable, and ready for adventure 🚗💨"
+  },
+  "price": {
+    "label": "Price",
+    "carPrice": "7500 USD",
+    "note": "Negotiable!"
   },
   "carSaleInfo": {
     "history": {
       "title": "The history of this car",
-      "description1": "We are the second owners of this amazing car. After saving for a while, we decided to look for our first serious car, and what an adventure it was! We researched for months, asked everyone we knew, read forums... and although this car was a bit out of our budget, we were lucky to find it and that the previous owners were super nice!",
-      "description2": "They were a family that took great care of it since they got it from the dealership. They kept up with all the maintenance, used it for trips and city driving, and sold it because they were going on a trip. We've continued that good care, using it for driving around Buenos Aires and escaping to the coast. We even did a pre-sale checkup that you can see!"
+      "description1": "We are the second owners of this amazing car...",
+      "description2": "They were a family that took care of it from the day they got it from the dealership..."
     },
     "whySell": {
       "title": "Why are we selling it?",
-      "description": "Honestly, it's a family matter. We had the opportunity to upgrade to a newer model. Although we love it, it's time to say goodbye and let someone else enjoy it."
+      "description": "Honestly, it’s a family matter. We had the opportunity to upgrade to a newer model..."
     },
     "whyBuy": {
-      "title": "Why should you buy this car?",
-      "description": "I've done the hard work for you: I checked out over 15 cars before deciding on this one. I went through everything, from poorly maintained cars to shady sellers. In the end, this car was by far the winner, and three different mechanics confirmed it: It's the best quality-price option! With proper maintenance, this car will last you many more kilometers."
+      "title": "Why buy this car?",
+      "description": "I did the hard work for you: I reviewed over 15 cars before deciding on this one..."
     },
     "doubts": {
       "title": "\"But, there are newer and cheaper cars in its range, why choose a Japanese car?\"",
-      "description": "Yes, but here's the thing: the difference with other cars in its range from the Mercosur is HUGE. Even though this one has some years on it, it's still solid. It doesn't make strange noises, the materials are in excellent condition, and I've only taken it to the workshop for routine maintenance. And the best part, it has everything that other brands have cut out, and you don't need to do anything to enjoy it."
+      "description": "Yes, but here's the thing: the difference with other cars in its range from Mercosur is HUGE..."
     },
     "ideal": {
       "title": "Who is this car ideal for?",
-      "city": "For getting around the city: It doesn't consume much and you can park it anywhere, without drawing attention!",
-      "kids": "For taking the kids to school: Though it might not seem like it, it has plenty of space inside.",
+      "city": "For getting around the city: It doesn’t consume much fuel, and you can park it anywhere...",
+      "kids": "For taking the kids to school: Although it doesn't seem like it, it has a lot of space inside...",
       "firstCar": "For being your first car: Just get in and drive, no complications.",
-      "travel": "For traveling: It's super stable on the road, even has a sporty touch. You'll enjoy every kilometer!"
+      "travel": "For traveling: It's super stable on the road, it even has a sporty touch..."
     },
-    "interested": "Interested?",
-    "contact": "Write to me and we'll arrange for you to see it in person!"
+    "interested": "Are you interested?",
+    "contact": "Write to me, and we can arrange for you to see it in person!"
   },
   "maintenance": {
     "title": "Maintenance",
-    "description": "We did everything indicated in the pre-sale review, and it was all verified by the workshop we took it to.",
+    "description": "We did everything that was recommended by those who checked it out...",
     "dec2023": {
       "title": "December 2023:",
-      "details": "Clutch (corea, one of the OEMs of Suzuki), axle boot kit."
+      "details": "Clutch (OEM brand of Suzuki), axle boot kit."
     },
     "jan2024": {
       "title": "January 2024:",
@@ -44,32 +49,41 @@
     },
     "feb2024": {
       "title": "February 2024:",
-      "details": "Cylinder head gasket replacement. New spark plugs. New battery. Oil and filter change."
+      "details": "Cylinder head gasket replacement. New spark plugs..."
     },
     "aug2024": {
       "title": "August 2024:",
-      "details": "Front suspension (Sachs). Control arm bushings, strut mounts, stabilizer bar bushings. Alignment and balancing."
+      "details": "New front suspension (OEM brand for Suzuki and Toyota)..."
     },
-    "vtv": "Up-to-date VTV. Engraved glass and auto parts. 157,000 km."
+    "vtv": "Up-to-date vehicle inspection. Glass and auto parts engraving."
   },
   "carDetails": {
     "title": "Specifications of the Suzuki Swift 1.5 VVT 2007",
-    "subtitle": "Here you can see ALL the details of the car"
+    "subtitle": "Here you can see ALL the details of the car",
+    "detailsButton": "Specifications"
   },
   "promotion": {
-    "title": "Want a page like this for your own car?",
-    "description": "Contact me and let's create an engaging page for your vehicle!",
-    "contactButton": "Contact Me"
+    "title": "Want a page like this for your car?",
+    "description": "Contact me, and let's create an attractive page for your vehicle!",
+    "contactButton": "Contact me"
   },
-"imageGallery": {
-  "title": "Complete transparency in aesthetic details",
-  "description": "We want you to know every aspect of this car. Here, we show you the aesthetic details it has, beyond normal use. Nothing that affects its functionality, just those marks that tell its story."
-},
-"highlights": {
-  "title": "Highlights",
-  "point1": "Uses super unleaded fuel, it's very cheap to fill up and doesn't consume much.",
-  "point2": "Low registration and insurance costs.",
-  "point3": "Features a Japanese aspirated engine with a chain, virtually indestructible."
-}
-
+  "imageGallery": {
+    "title": "Complete transparency in aesthetic details",
+    "description": "We want you to know every aspect of this car..."
+  },
+  "highlights": {
+    "title": "Why is this your next car?",
+    "point1": "It uses regular gasoline, is cheap to fill up, and has very low consumption...",
+    "point2": "You pay very little in taxes and insurance.",
+    "point3": "Naturally aspirated engine with a Japanese-origin timing chain..."
+  },
+  "contactForm": {
+    "title": "Contact us",
+    "nameLabel": "Name:",
+    "emailLabel": "Email:",
+    "messageLabel": "Message:",
+    "submitButton": "Send",
+    "successMessage": "Your message was sent!",
+    "errorMessage": "There was an error, try again..."
+  }
 }
