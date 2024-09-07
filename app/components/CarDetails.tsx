@@ -233,11 +233,6 @@ const CarDetails: React.FC = () => {
 								<td align="left" ><b>Inyección Indirecta.</b></td>
 							</tr>
 							<tr>
-								<td height="42" align="center" >Automatismo de parada y arranque del motor ("Stop/Start")</td>
-								<td align="left" ><b>No</b></td>
-							</tr>
-
-							<tr>
 								<td height="23" align="center" colSpan={2} >Transmisión</td>
 							</tr>
 
