@@ -16,7 +16,7 @@ const ImageGallery = () => {
     <section className="py-12 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-center text-gray-800">
-          🔍 {t('imageGallery.title')} 🔍
+           {t('imageGallery.title')} 
         </h1>
         <p className="text-center mb-8 text-lg text-gray-600">
           {t('imageGallery.description')}
