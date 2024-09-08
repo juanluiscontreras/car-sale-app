@@ -1,8 +1,10 @@
 'use client';
+import useDetectLanguage from './components/DetectLanguage';
 import './globals.css';
-import './i18n'; // Import i18n configuration
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  useDetectLanguage();
+
   return (
     <html lang="en">
       <body>

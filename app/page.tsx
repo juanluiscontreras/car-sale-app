@@ -54,9 +54,6 @@ export default function Home() {
       </section>
 
       <section className="section py-8">
-        <div className="text-xl font-bold mb-4">
-          {t('carPrice', { price: '7500 USD' })} {/* Reiterate the price */}
-        </div>
         <ContactForm />
       </section>
 
