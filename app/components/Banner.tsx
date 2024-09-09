@@ -15,10 +15,10 @@ const Banner = () => {
           alt="Suzuki Logo"
           className="mx-auto w-24 md:w-32 mb-4"
         />
-        <h1 className="text-3xl md:text-5xl font-bold leading-tight">
+        <h1 className="text-2xl md:text-3xl font-bold leading-tight">
           {t('banner.title')}
         </h1>
-        <p className="text-2xl md:text-3xl mt-4 max-w-2xl mx-auto">
+        <p className="text-xl md:text-3xl mt-4 max-w-2xl mx-auto">
           {t('banner.subtitle')}
         </p>
       </div>
