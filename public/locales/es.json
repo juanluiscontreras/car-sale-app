@@ -1,11 +1,11 @@
 {
   "banner": {
     "title": "¡El compañero perfecto para cada día!",
-    "subtitle": "Suzuki Swift 1.5 VVT 16V 2007 157mil km - Ágil, confiable y listo para la aventura "
+    "subtitle": "Suzuki Swift 1.5 VVT 16V - Año 2007 - 157mil km"
   },
   "price": {
     "label": "Precio",
-    "carPrice": "7500 USD",
+    "carPrice": "7000 USD",
     "note": "Negociable!"
   },
   "carSaleInfo": {
@@ -23,7 +23,7 @@
       "description": "Ya hice el trabajo duro por vos: revisé más de 15 autos antes de decidirme por este. Pasé por todo, desde autos mal mantenidos hasta vendedores dudosos. Al final, este auto fue el ganador por lejos, y tres mecánicos distintos me lo confirmaron: ¡Es la mejor opción en relación calidad-precio! Con el mantenimiento correcto, este auto te va a durar un montón de kilómetros más."
     },
     "doubts": {
-      "title": "\"Pero, hay autos más nuevos y baratos en su rango, ¿Por qué elegiria un auto japonés?\"",
+      "title": "Pero, hay autos más nuevos y baratos en su rango, ¿Por qué elegiria un auto japonés?",
       "description": "Sí, pero aquí está el tema: la diferencia con otros autos de su gama provenientes del Mercosur es ENORME. Aunque este tenga sus años, sigue siendo sólido. No hace ruidos extraños, los materiales están en excelente estado, y solo lo llevé al taller para el mantenimiento de rutina. Y lo mejor, trae todo lo que otras marcas ya recortaron, y no hay que hacerle nada para disfrutarlo."
     },
     "ideal": {

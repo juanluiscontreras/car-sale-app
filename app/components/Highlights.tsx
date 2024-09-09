@@ -8,7 +8,7 @@ const Highlights = () => {
   return (
     <section className="bg-white text-gray-800 p-6 md:p-8 rounded-lg shadow-lg mt-8">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
+        <h2 className="text-xl md:text-2xl font-bold mb-6 text-center">
           {t('highlights.title')}
         </h2>
         <ul className="list-disc pl-6 space-y-4">
