@@ -29,14 +29,14 @@ const PromotionBanner: React.FC = () => {
     setIsSending(true);
     try {
       await emailjs.send(
-        process.env.EMAILJS_SERVICE_ID!,
-        process.env.EMAILJS_TEMPLATE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
         {
           from_name: formData.name,
           from_email: formData.email,
           to_name: process.env.DESTINATION_EMAIL!,
         },
-        process.env.EMAILJS_USER_ID!
+        process.env.NEXT_PUBLIC_EMAILJS_USER_ID!
       );
 
       setMessage(t('contactForm.successMessage'));
