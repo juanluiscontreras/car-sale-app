@@ -1,7 +1,7 @@
 'use client';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './components/LanguageSwitcher';
-import Viewer from './components/Viewer';
+import Viewer from './components/ViewerContainer';
 import ContactForm from './components/ContactForm';
 import ImageGallery from './components/ImageGallery';
 import './globals.css'; // Import the global styles
@@ -27,7 +27,7 @@ export default function Home() {
         <WhatsAppButton />
       </div>
 
-      <main className="container mx-auto px-4 md:px-8 py-8">
+      <main className="container mx-auto px-4 md:px-8 py-8 overflow-x-hidden">
         <section className="section text-center py-8">
           <Banner />
         </section>
@@ -35,7 +35,7 @@ export default function Home() {
         <section className="section py-8">
           <Price />
         </section>
-        
+
         <section className="section py-8">
           <Viewer />
         </section>

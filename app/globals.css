@@ -7,3 +7,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 /* Root variables for theming */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@layer base {
+    body {
+        padding: env(safe-area-inset);
+    }
+}

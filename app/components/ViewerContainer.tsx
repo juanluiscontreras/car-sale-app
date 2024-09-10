@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { ReactPhotoSphereViewer } from 'react-photo-sphere-viewer';
 
-// Define the type for the Viewer component props
+// Add type for src prop
 interface ViewerProps {
   src: string;
 }
@@ -15,10 +15,12 @@ const Viewer: React.FC<ViewerProps> = ({ src }) => {
     const img = new Image();
     img.src = src;
     img.onload = () => {
-      // Determine if the image is panoramic based on its aspect ratio
       const aspectRatio = img.width / img.height;
-      if (aspectRatio < 2) {  // Adjust threshold as needed for panoramic determination
-        setIsPanoramic(false);
+      // Determine if the image is panoramic (width should be twice the height)
+      if (aspectRatio !== 2) {
+        setIsPanoramic(false); // Not a panoramic image
+      } else {
+        setIsPanoramic(true); // Panoramic image
       }
     };
   }, [src]);
@@ -47,13 +49,13 @@ const Viewer: React.FC<ViewerProps> = ({ src }) => {
   );
 };
 
-const ViewerContainer: React.FC = () => {
+const ViewerContainer = () => {
   return (
-    <>
+    <div className="w-full h-auto max-w-[100vw]">
       <Viewer src="/images/pano-exterior.jpg" />
       <br />
       <Viewer src="/images/pano-interior.jpg" />
-    </>
+    </div>
   );
 };
 

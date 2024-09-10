@@ -1,89 +1,89 @@
 {
   "banner": {
-    "title": "The perfect companion for every day!",
-    "subtitle": "Suzuki Swift 1.5 VVT 16V 2007 157k km - Agile, reliable, and ready for adventure "
+    "title": "The ideal companion for every day",
+    "subtitle": "Suzuki Swift 1.5 VVT 16V - Year 2007 - 157,000 km"
   },
   "price": {
     "label": "Price",
-    "carPrice": "7000 USD",
-    "note": "Negotiable!"
+    "carPrice": "7,000 USD",
+    "note": "Negotiable"
   },
   "carSaleInfo": {
     "history": {
-      "title": "The history of this car",
-      "description1": "We are the second owners of this amazing car...",
-      "description2": "They were a family that took care of it from the day they got it from the dealership..."
+      "title": "Car History",
+      "description1": "We are the second owners of this vehicle, carefully maintained by its first family owners. It has always received proper services and has been used both in the city and for trips.",
+      "description2": "We continued to take care of it and have mainly used it in Buenos Aires and trips to the coast."
     },
     "whySell": {
-      "title": "Why are we selling it?",
-      "description": "Honestly, it’s a family matter. We had the opportunity to upgrade to a newer model..."
+      "title": "Reason for Sale",
+      "description": "We are selling this car because of a family opportunity that allowed us to get a newer model. It's time for someone else to enjoy it."
     },
     "whyBuy": {
-      "title": "Why buy this car?",
-      "description": "I did the hard work for you: I reviewed over 15 cars before deciding on this one..."
+      "title": "Why Buy It?",
+      "description": "This is our first car, so we explored multiple options to take care of our investment. Three different mechanics have approved it: great value for money and ready for many more miles."
     },
     "doubts": {
-      "title": "\"But, there are newer and cheaper cars in its range, why choose a Japanese car?\"",
-      "description": "Yes, but here's the thing: the difference with other cars in its range from Mercosur is HUGE..."
+      "title": "Why Choose a Japanese Car?",
+      "description": "While there are Mercosur models with fewer years or kilometers in its range, the quality and equipment of this vehicle is unparalleled. It has no noise, the materials are in perfect condition, and it has only required routine maintenance. It's ready to enjoy."
     },
     "ideal": {
-      "title": "Who is this car ideal for?",
-      "city": "For getting around the city: It doesn’t consume much fuel, and you can park it anywhere...",
-      "kids": "For taking the kids to school: Although it doesn't seem like it, it has a lot of space inside...",
-      "firstCar": "For being your first car: Just get in and drive, no complications.",
-      "travel": "For traveling: It's super stable on the road, it even has a sporty touch..."
+      "title": "Who Is It Ideal For?",
+      "city": "For moving around the city: Low fuel consumption and easy to park.",
+      "kids": "For taking the kids: Surprising interior space.",
+      "firstCar": "For your first car: Simple, reliable, and hassle-free.",
+      "travel": "For traveling: Stability on the road with a sporty touch."
     },
     "interested": "Are you interested?",
-    "contact": "Write to me, and we can arrange for you to see it in person!"
+    "contact": "Contact me and we'll arrange for you to see it in person."
   },
   "maintenance": {
-    "title": "Maintenance",
-    "description": "We did everything that was recommended by those who checked it out...",
+    "title": "Maintenance Performed",
+    "description": "We followed all recommendations to keep the car in perfect condition.",
     "dec2023": {
       "title": "December 2023:",
-      "details": "Clutch (OEM brand of Suzuki), axle boot kit."
+      "details": "Clutch replacement and axle boot kit."
     },
     "jan2024": {
       "title": "January 2024:",
-      "details": "2 new tires. Alignment and balancing."
+      "details": "Two new tires. Alignment and balancing."
     },
     "feb2024": {
       "title": "February 2024:",
-      "details": "Cylinder head gasket replacement. New spark plugs..."
+      "details": "Cylinder head gasket replacement, new spark plugs, new battery, oil and filter changes."
     },
     "aug2024": {
       "title": "August 2024:",
-      "details": "New front suspension (OEM brand for Suzuki and Toyota)..."
+      "details": "New front suspension, bushings, and alignment. Brake pad change and brake fluid bleeding."
     },
-    "vtv": "Up-to-date vehicle inspection. Glass and auto parts engraving."
+    "vtv": "Up-to-date technical inspection (VTV). Glass and auto part engraving."
   },
   "carDetails": {
-    "title": "Specifications of the Suzuki Swift 1.5 VVT 2007",
-    "subtitle": "Here you can see ALL the details of the car",
-    "detailsButton": "Specifications"
+    "title": "Suzuki Swift 1.5 VVT 2007 Specifications",
+    "subtitle": "All the details of the car",
+    "detailsButton": "View specifications"
   },
   "promotion": {
-    "title": "Want a page like this for your car?",
-    "description": "Contact me, and let's create an attractive page for your vehicle!",
+    "title": "Do you want a page like this for your car?",
+    "description": "Contact me and let's design an attractive page for your vehicle.",
     "contactButton": "Contact me"
   },
   "imageGallery": {
-    "title": "Complete transparency in aesthetic details",
-    "description": "We want you to know every aspect of this car..."
+    "title": "Aesthetic Details",
+    "description": "Get to know every aspect of this car. Here we show its aesthetic details, marks that tell its story without affecting its performance."
   },
   "highlights": {
-    "title": "Why is this your next car?",
-    "point1": "It uses regular gasoline, is cheap to fill up, and has very low consumption...",
-    "point2": "You pay very little in taxes and insurance.",
-    "point3": "Naturally aspirated engine with a Japanese-origin timing chain..."
+    "title": "Why is it your next car?",
+    "point1": "Reliable engine, low consumption in the city and on the road.",
+    "point2": "Minimal costs for tax and insurance.",
+    "point3": "Maintenance up to date for its age and mileage."
   },
   "contactForm": {
-    "title": "Contact us",
+    "title": "Contact Us",
     "nameLabel": "Name:",
     "emailLabel": "Email:",
     "messageLabel": "Message:",
     "submitButton": "Send",
-    "successMessage": "Your message was sent!",
-    "errorMessage": "There was an error, try again..."
+    "successMessage": "Your message has been sent!",
+    "errorMessage": "There was an error, please try again or contact us via WhatsApp."
   }
 }

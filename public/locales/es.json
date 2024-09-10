@@ -20,11 +20,11 @@
     },
     "whyBuy": {
       "title": "¿Por qué comprarlo?",
-      "description": "Este auto ha sido seleccionado cuidadosamente después de revisar múltiples opciones. Tres mecánicos distintos lo avalan: excelente relación calidad-precio y listo para muchos kilómetros más."
+      "description": "Es nuestro primer auto, por lo que vimos múltiples opciones para cuidar nuestra inversión. Tres mecánicos distintos lo avalan: excelente relación calidad-precio y listo para muchos kilómetros más."
     },
     "doubts": {
       "title": "¿Por qué elegir un auto japonés?",
-      "description": "Aunque hay modelos provenientes del mercosur más nuevos en su rango, la calidad japonesa de este vehículo es incomparable. No tiene ruidos, los materiales están en perfecto estado, y solo ha requerido mantenimiento rutinario. Está listo para disfrutar."
+      "description": "Aunque hay modelos provenientes del mercosur quizás con menos años o km en su rango, la calidad y el equipamiento de este vehículo es incomparable. No tiene ruidos, los materiales están en perfecto estado, y solo ha requerido mantenimiento rutinario. Está listo para disfrutar."
     },
     "ideal": {
       "title": "¿Para quién es ideal?",
@@ -75,7 +75,7 @@
     "title": "¿Por qué es tu próximo auto?",
     "point1": "Motor confiable, bajo consumo en ciudad y ruta.",
     "point2": "Costos mínimos de patente y seguro.",
-    "point3": "Motor japonés con cadena de distribución, alta durabilidad."
+    "point3": "Mantenimiento al día acorde a sus años y kilometraje."
   },
   "contactForm": {
     "title": "Contáctanos",
