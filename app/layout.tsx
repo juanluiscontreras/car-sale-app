@@ -6,7 +6,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   useDetectLanguage();
 
   return (
-    <html lang="en">
+    <html lang="es">
       <body>
         {children}
       </body>

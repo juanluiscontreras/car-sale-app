@@ -25,13 +25,15 @@ const CarSaleInfo = () => {
       </p>
 
       <h2 className="text-xl md:text-2xl font-bold mb-6 text-center">
-        {t('carSaleInfo.whyBuy.title')} </h2>
+        {t('carSaleInfo.whyBuy.title')}
+      </h2>
       <p className="text-lg">
         {t('carSaleInfo.whyBuy.description')}
       </p>
 
       <h2 className="text-xl md:text-2xl font-bold mb-6 text-center">
-        {t('carSaleInfo.doubts.title')}</h2>
+        {t('carSaleInfo.doubts.title')}
+      </h2>
       <p className="text-lg">
         {t('carSaleInfo.doubts.description')}
       </p>
@@ -40,11 +42,9 @@ const CarSaleInfo = () => {
         {t('carSaleInfo.ideal.title')} </h2>
       <ForWhoIs />
 
-      <p className="text-lg text-center">
-        <h2 className="text-xl md:text-2xl font-bold mb-6 text-center">
-          {t('carSaleInfo.interested')} <strong>{t('carSaleInfo.contact')}</strong>
-        </h2>
-      </p>
+      <h2 className="text-xl md:text-2xl font-bold mb-6 text-center">
+        {t('carSaleInfo.interested')} <strong>{t('carSaleInfo.contact')}</strong>
+      </h2>
     </div>
   );
 };

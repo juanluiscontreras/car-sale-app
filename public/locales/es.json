@@ -1,89 +1,89 @@
 {
   "banner": {
-    "title": "¡El compañero perfecto para cada día!",
-    "subtitle": "Suzuki Swift 1.5 VVT 16V - Año 2007 - 157mil km"
+    "title": "El compañero ideal para cada día",
+    "subtitle": "Suzuki Swift 1.5 VVT 16V - Año 2007 - 157,000 km"
   },
   "price": {
     "label": "Precio",
-    "carPrice": "7000 USD",
-    "note": "Negociable!"
+    "carPrice": "7,000 USD",
+    "note": "Negociable"
   },
   "carSaleInfo": {
     "history": {
-      "title": "La historia de este auto",
-      "description1": "Somos los segundos dueños de este increíble auto. Después de ahorrar por un buen tiempo, nos decidimos a buscar nuestro primer coche en serio, ¡y vaya que fue una aventura! Investigamos meses, preguntamos a todo el mundo, leímos foros... y aunque este coche estaba un poco fuera de nuestro presupuesto, ¡tuvimos la suerte de encontrarlo y de que los dueños anteriores fueran súper buena onda!",
-      "description2": "Ellos eran una familia que lo cuidó desde que lo sacaron de la concesionaria. Le hicieron todos los mantenimientos al día, lo usaban para viajar y moverse por la ciudad, y lo vendieron porque se iban de viaje. Nosotros seguimos ese buen cuidado, y lo hemos usado para movernos por Capital Federal y escaparnos a la costa. ¡Hasta hicimos un chequeo pre-venta que podés ver!"
+      "title": "Historia del auto",
+      "description1": "Somos los segundos dueños de este vehículo, cuidadosamente mantenido por su primera familia propietaria. Siempre ha recibido los servicios correspondientes y se ha utilizado tanto en la ciudad como en viajes.",
+      "description2": "Continuamos con su cuidado y lo hemos usado principalmente en Capital Federal y escapadas a la costa."
     },
     "whySell": {
-      "title": "¿Por qué lo vendemos?",
-      "description": "La verdad, es un tema familiar. Tuvimos la oportunidad de cambiar a un modelo más nuevo. Aunque le tenemos mucho cariño, es momento de despedirnos y que alguien más lo disfrute."
+      "title": "Motivo de la venta",
+      "description": "Estamos vendiendo este auto debido a una oportunidad familiar que nos permitió adquirir un modelo más reciente. Es hora de que alguien más lo disfrute."
     },
     "whyBuy": {
-      "title": "¿Por qué comprar este auto?",
-      "description": "Ya hice el trabajo duro por vos: revisé más de 15 autos antes de decidirme por este. Pasé por todo, desde autos mal mantenidos hasta vendedores dudosos. Al final, este auto fue el ganador por lejos, y tres mecánicos distintos me lo confirmaron: ¡Es la mejor opción en relación calidad-precio! Con el mantenimiento correcto, este auto te va a durar un montón de kilómetros más."
+      "title": "¿Por qué comprarlo?",
+      "description": "Este auto ha sido seleccionado cuidadosamente después de revisar múltiples opciones. Tres mecánicos distintos lo avalan: excelente relación calidad-precio y listo para muchos kilómetros más."
     },
     "doubts": {
-      "title": "Pero, hay autos más nuevos y baratos en su rango, ¿Por qué elegiria un auto japonés?",
-      "description": "Sí, pero aquí está el tema: la diferencia con otros autos de su gama provenientes del Mercosur es ENORME. Aunque este tenga sus años, sigue siendo sólido. No hace ruidos extraños, los materiales están en excelente estado, y solo lo llevé al taller para el mantenimiento de rutina. Y lo mejor, trae todo lo que otras marcas ya recortaron, y no hay que hacerle nada para disfrutarlo."
+      "title": "¿Por qué elegir un auto japonés?",
+      "description": "Aunque hay modelos provenientes del mercosur más nuevos en su rango, la calidad japonesa de este vehículo es incomparable. No tiene ruidos, los materiales están en perfecto estado, y solo ha requerido mantenimiento rutinario. Está listo para disfrutar."
     },
     "ideal": {
-      "title": "¿Para quién es ideal este auto?",
-      "city": "Para moverte por la ciudad: No gasta nada y lo estacionás en cualquier lado, ¡sin llamar la atención!",
-      "kids": "Para llevar a los nenes a la escuela: Aunque no lo parezca, tiene un montón de espacio por dentro.",
-      "firstCar": "Para ser tu primer auto: Subite y andá, no hay complicaciones.",
-      "travel": "Para viajar: Es súper estable en ruta, hasta tiene un toque deportivo. ¡Vas a disfrutar cada kilómetro!"
+      "title": "¿Para quién es ideal?",
+      "city": "Para moverte en la ciudad: Bajo consumo y fácil de estacionar.",
+      "kids": "Para llevar a los niños: Sorprendente espacio interior.",
+      "firstCar": "Para ser tu primer auto: Simple, confiable y sin complicaciones.",
+      "travel": "Para viajar: Estabilidad en ruta y un toque deportivo."
     },
     "interested": "¿Te interesa?",
-    "contact": "¡Escribime y coordinamos para que lo veas en persona!"
+    "contact": "Contáctame y coordinamos para que lo veas en persona."
   },
   "maintenance": {
-    "title": "Mantenimiento",
-    "description": "Le realizamos todo lo que nos indicaron quienes lo revisaron para tenerlo al día.",
+    "title": "Mantenimiento realizado",
+    "description": "Hemos seguido todas las recomendaciones para mantener el auto en perfecto estado.",
     "dec2023": {
       "title": "Diciembre 2023:",
-      "details": "Embrague (marca OEM de Suzuki), kit fuelles de semieje."
+      "details": "Cambio de embrague y kit de fuelles de semieje."
     },
     "jan2024": {
       "title": "Enero 2024:",
-      "details": "2 neumáticos nuevos. Alineación y balanceo."
+      "details": "Dos neumáticos nuevos. Alineación y balanceo."
     },
     "feb2024": {
       "title": "Febrero 2024:",
-      "details": "Cambio de junta de tapa de cilindros. Bujías nuevas. Batería nueva. Cambio de aceites y filtros."
+      "details": "Cambio de junta de tapa de cilindros, bujías nuevas, batería nueva, y cambio de aceites y filtros."
     },
     "aug2024": {
       "title": "Agosto 2024:",
-      "details": "Suspensión delantera nueva (marca OEM para Suzuki y Toyota). Bujes de parrillas, cazoletas, bujes de barra estabilizadora. Alineación y balanceo. Cambio de pastillas, purgado de líquido de frenos."
+      "details": "Suspensión delantera nueva, bujes y alineación. Cambio de pastillas de freno y purgado del líquido."
     },
-    "vtv": "VTV al día. Grabado de cristales y autopartes."
+    "vtv": "VTV vigente. Grabado de cristales y autopartes."
   },
   "carDetails": {
-    "title": "Especificaciones del Suzuki Swift 1.5 VVT 2007",
-    "subtitle": "Acá podés ver TODOS los detalles del auto",
-    "detailsButton": "Especificaciones"
+    "title": "Especificaciones Suzuki Swift 1.5 VVT 2007",
+    "subtitle": "Todos los detalles del auto",
+    "detailsButton": "Ver especificaciones"
   },
   "promotion": {
     "title": "¿Quieres una página como esta para tu auto?",
-    "description": "¡Contáctame y creemos una página atractiva para tu vehículo!",
+    "description": "Contáctame y diseñemos una página atractiva para tu vehículo.",
     "contactButton": "Contáctame"
   },
   "imageGallery": {
-    "title": "Transparencia total en los detalles estéticos",
-    "description": "Queremos que conozcas cada aspecto de este auto. Aquí te mostramos los detalles estéticos que tiene, más allá del uso normal. Nada que afecte su funcionamiento, solo esas marcas que cuentan su historia."
+    "title": "Detalles estéticos",
+    "description": "Conoce cada aspecto de este auto. Aquí te mostramos sus detalles estéticos, marcas que narran su historia sin afectar su rendimiento."
   },
   "highlights": {
     "title": "¿Por qué es tu próximo auto?",
-    "point1": "Usa nafta súper, es barato llenarle el tanque y tiene muy bajo consumo en ciudad y en ruta.",
-    "point2": "Pagás muy poco de patente y de seguro.",
-    "point3": "Motor aspirado con cadena de distribución de origen japonés, confiabilidad comprobada."
+    "point1": "Motor confiable, bajo consumo en ciudad y ruta.",
+    "point2": "Costos mínimos de patente y seguro.",
+    "point3": "Motor japonés con cadena de distribución, alta durabilidad."
   },
   "contactForm": {
-    "title": "Escribinos",
+    "title": "Contáctanos",
     "nameLabel": "Nombre:",
-    "emailLabel": "Email:",
+    "emailLabel": "Correo electrónico:",
     "messageLabel": "Mensaje:",
     "submitButton": "Enviar",
-    "successMessage": "Tu mensaje se envió!",
-    "errorMessage": "Hubo un error, tratá de nuevo, o escribinos al Whatsapp."
+    "successMessage": "¡Tu mensaje ha sido enviado!",
+    "errorMessage": "Hubo un error, inténtalo de nuevo o contáctanos por Whatsapp."
   }
 }
