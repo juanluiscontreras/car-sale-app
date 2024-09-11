@@ -6,11 +6,8 @@ import { useTranslation } from 'react-i18next';
 const ImageGallery = () => {
   const { t } = useTranslation();
 
-  const images = [
-    '/images/image1.jpeg',
-    '/images/image2.jpeg',
-    '/images/image3.jpeg',
-  ];
+  const images = Array.from({ length: 5 }, (_, i) => `/images/details${i + 1}.jpeg`);
+
 
   return (
     <section className="py-12 bg-white">
