@@ -57,7 +57,7 @@
     },
     "vtv": "Up-to-date technical inspection (VTV 09-2024). Glass and auto part engraving."
   },
-  "carDetails": {
+  "carSpecs": {
     "title": "Suzuki Swift 1.5 VVT 2007 Specifications",
     "subtitle": "All the details of the car",
     "detailsButton": "View specifications"
@@ -67,7 +67,7 @@
     "description": "Contact me and let's design an attractive page for your vehicle.",
     "contactButton": "Contact me"
   },
-  "imageGallery": {
+  "carDetailsForFixGallery": {
     "title": "Aesthetic Details",
     "description": "Get to know every aspect of this car. Here we show its aesthetic details, marks that tell its story without affecting its performance."
   },

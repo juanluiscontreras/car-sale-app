@@ -13,10 +13,10 @@ const Maintenance = () => {
         <p className="mb-6 text-lg">{t('maintenance.description')}</p>
         
         <ul className="list-disc pl-8 space-y-4 text-left">
-          <li><strong>{t('maintenance.dec2023.title')}:</strong> {t('maintenance.dec2023.details')}</li>
-          <li><strong>{t('maintenance.jan2024.title')}:</strong> {t('maintenance.jan2024.details')}</li>
-          <li><strong>{t('maintenance.feb2024.title')}:</strong> {t('maintenance.feb2024.details')}</li>
-          <li><strong>{t('maintenance.aug2024.title')}:</strong> {t('maintenance.aug2024.details')}</li>
+          <li><strong>{t('maintenance.dec2023.title')}</strong> {t('maintenance.dec2023.details')}</li>
+          <li><strong>{t('maintenance.jan2024.title')}</strong> {t('maintenance.jan2024.details')}</li>
+          <li><strong>{t('maintenance.feb2024.title')}</strong> {t('maintenance.feb2024.details')}</li>
+          <li><strong>{t('maintenance.aug2024.title')}</strong> {t('maintenance.aug2024.details')}</li>
         </ul>
 
         <p className="mt-8 text-lg font-semibold">{t('maintenance.vtv')}</p>

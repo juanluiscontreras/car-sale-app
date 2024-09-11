@@ -49,7 +49,7 @@ const Viewer: React.FC<ViewerProps> = ({ src }) => {
   );
 };
 
-const ViewerContainer = () => {
+const PanoramicGallery = () => {
   return (
     <div className="w-full h-auto max-w-[100vw]">
       <Viewer src="/images/pano-exterior.jpg" />
@@ -59,4 +59,4 @@ const ViewerContainer = () => {
   );
 };
 
-export default ViewerContainer;
+export default PanoramicGallery;

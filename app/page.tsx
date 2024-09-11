@@ -1,11 +1,10 @@
 'use client';
 import { useTranslation } from 'react-i18next';
 import LanguageSwitcher from './components/LanguageSwitcher';
-import Viewer from './components/ViewerContainer';
 import ContactForm from './components/ContactForm';
-import ImageGallery from './components/ImageGallery';
+import CarDetailsForFixGallery from './components/CarDetailsForFixGallery';
 import './globals.css'; // Import the global styles
-import CarDetails from './components/CarDetails';
+import CarSpecs from './components/CarSpecs';
 import WhatsAppButton from './components/WhatsappButton';
 import CarSaleInfo from './components/CarSaleInfo';
 import Maintenance from './components/Mainteinance';
@@ -13,6 +12,7 @@ import Banner from './components/Banner';
 import PromotionBanner from './components/PromotionBanner';
 import Highlights from './components/Highlights';
 import Price from './components/Price';
+import PanoramicGallery from './components/PanoramicGallery';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -37,7 +37,7 @@ export default function Home() {
         </section>
 
         <section className="section py-8">
-          <Viewer />
+          <PanoramicGallery />
         </section>
 
         <section className="section py-8">
@@ -45,7 +45,7 @@ export default function Home() {
         </section>
 
         <section className="section py-8">
-          <CarDetails />
+          <CarSpecs />
         </section>
 
         <section className="section py-8">
@@ -57,7 +57,7 @@ export default function Home() {
         </section>
 
         <section className="section py-8">
-          <ImageGallery />
+          <CarDetailsForFixGallery />
         </section>
 
         <section className="section py-8">

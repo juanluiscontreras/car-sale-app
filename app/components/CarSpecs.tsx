@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
-const CarDetails: React.FC = () => {
+const CarSpecs: React.FC = () => {
 	const { t } = useTranslation();
 	const [isOpen, setIsOpen] = useState<boolean>(false);
 
@@ -13,16 +13,16 @@ const CarDetails: React.FC = () => {
 	return (
 		<div className="max-w-3xl mx-auto p-6 bg-white rounded-lg shadow-md">
 			<h1 className="text-3xl md:text-5xl font-bold mb-4 text-center">
-				{t('carDetails.title')}
+				{t('carSpecs.title')}
 			</h1>
-			<h2 className="text-xl font-semibold mb-4">{t('carDetails.subtitle')}</h2>
+			<h2 className="text-xl font-semibold mb-4">{t('carSpecs.subtitle')}</h2>
 
 			<div className="relative">
 				<button
 					onClick={toggleAccordion}
 					className="w-full py-3 px-4 bg-gray-200 text-gray-800 rounded-lg flex justify-between items-center focus:outline-none focus:ring-2 focus:ring-gray-500"
 				>
-					<span>{t('carDetails.detailsButton')}</span>
+					<span>{t('carSpecs.detailsButton')}</span>
 					<svg
 						className={`w-6 h-6 transition-transform duration-300 ${isOpen ? 'rotate-180' : 'rotate-0'}`}
 						xmlns="http://www.w3.org/2000/svg"
@@ -548,4 +548,4 @@ const CarDetails: React.FC = () => {
 	);
 };
 
-export default CarDetails;
+export default CarSpecs;

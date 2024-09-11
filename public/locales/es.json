@@ -57,7 +57,7 @@
     },
     "vtv": "VTV vigente realizada en Septiembre 2024. Grabado de cristales y autopartes. Verificación policial."
   },
-  "carDetails": {
+  "carSpecs": {
     "title": "Especificaciones Suzuki Swift 1.5 VVT 2007",
     "subtitle": "Todos los detalles del auto",
     "detailsButton": "Ver especificaciones"
@@ -67,7 +67,7 @@
     "description": "Contáctame y diseñemos una página atractiva para tu vehículo.",
     "contactButton": "Contáctame"
   },
-  "imageGallery": {
+  "carDetailsForFixGallery": {
     "title": "Detalles estéticos",
     "description": "Conoce cada aspecto de este auto. Aquí te mostramos sus detalles estéticos, marcas que narran su historia sin afectar su rendimiento."
   },

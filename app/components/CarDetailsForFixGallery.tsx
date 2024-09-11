@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
-const ImageGallery = () => {
+const CarDetailsForFixGallery = () => {
   const { t } = useTranslation();
   const [selectedImage, setSelectedImage] = useState<string | null>(null); // State for the selected image
 
@@ -21,10 +21,10 @@ const ImageGallery = () => {
     <section className="py-12 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-center text-gray-800">
-          {t('imageGallery.title')}
+          {t('carDetailsForFixGallery.title')}
         </h1>
         <p className="text-center mb-8 text-lg text-gray-600">
-          {t('imageGallery.description')}
+          {t('carDetailsForFixGallery.description')}
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {images.map((src, index) => (
@@ -68,4 +68,4 @@ const ImageGallery = () => {
   );
 };
 
-export default ImageGallery;
+export default CarDetailsForFixGallery;
