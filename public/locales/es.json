@@ -63,9 +63,15 @@
     "detailsButton": "Ver especificaciones"
   },
   "promotion": {
-    "title": "¿Quieres una página como esta para tu auto?",
+    "title": "¿Quieres una página como esta para tu coche?",
     "description": "Contáctame y diseñemos una página atractiva para tu vehículo.",
-    "contactButton": "Contáctame"
+    "contactButton": "Contáctame",
+    "modalTitle": "Contáctanos",
+    "modalName": "Nombre:",
+    "modalEmail": "Correo electrónico:",
+    "modalSubmit": "Enviar",
+    "successMessage": "¡Tu mensaje ha sido enviado!",
+    "errorMessage": "Hubo un error, por favor inténtalo de nuevo o contáctanos por WhatsApp."
   },
   "carDetailsForFixGallery": {
     "title": "Detalles estéticos",

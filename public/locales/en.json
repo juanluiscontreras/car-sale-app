@@ -65,7 +65,13 @@
   "promotion": {
     "title": "Do you want a page like this for your car?",
     "description": "Contact me and let's design an attractive page for your vehicle.",
-    "contactButton": "Contact me"
+    "contactButton": "Contact me",
+    "modalTitle": "Contact Us",
+    "modalName": "Name:",
+    "modalEmail": "Email:",
+    "modalSubmit": "Send",
+    "successMessage": "Your message has been sent!",
+    "errorMessage": "There was an error, please try again or contact us via WhatsApp."
   },
   "carDetailsForFixGallery": {
     "title": "Aesthetic Details",
