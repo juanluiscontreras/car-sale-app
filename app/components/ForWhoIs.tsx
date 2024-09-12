@@ -21,28 +21,28 @@ const ForWhoIs = () => {
         data-aos-delay="100"
         className="p-4 bg-white shadow-lg rounded-lg border border-gray-200 transform transition-transform duration-500 ease-in-out hover:scale-105"
       >
-        <p className="text-lg font-medium">{t('carSaleInfo.ideal.city')}</p>
+        <p className="text-lg font-medium text-center">{t('carSaleInfo.ideal.city')}</p>
       </li>
       <li
         data-aos="fade-left"
         data-aos-delay="300"
         className="p-4 bg-white shadow-lg rounded-lg border border-gray-200 transform transition-transform duration-500 ease-in-out hover:scale-105"
       >
-        <p className="text-lg font-medium">{t('carSaleInfo.ideal.kids')}</p>
+        <p className="text-lg font-medium text-center">{t('carSaleInfo.ideal.kids')}</p>
       </li>
       <li
         data-aos="fade-right"
         data-aos-delay="500"
         className="p-4 bg-white shadow-lg rounded-lg border border-gray-200 transform transition-transform duration-500 ease-in-out hover:scale-105"
       >
-        <p className="text-lg font-medium">{t('carSaleInfo.ideal.firstCar')}</p>
+        <p className="text-lg font-medium text-center">{t('carSaleInfo.ideal.firstCar')}</p>
       </li>
       <li
         data-aos="fade-left"
         data-aos-delay="700"
         className="p-4 bg-white shadow-lg rounded-lg border border-gray-200 transform transition-transform duration-500 ease-in-out hover:scale-105"
       >
-        <p className="text-lg font-medium">{t('carSaleInfo.ideal.travel')}</p>
+        <p className="text-lg font-medium text-center">{t('carSaleInfo.ideal.travel')}</p>
       </li>
     </ul>
   );

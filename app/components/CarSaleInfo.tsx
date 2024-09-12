@@ -11,30 +11,30 @@ const CarSaleInfo = () => {
       <h2 className="text-xl md:text-2xl font-bold mb-6 text-center">
         {t('carSaleInfo.history.title')}
       </h2>
-      <p className="text-lg">
+      <p className="text-lg text-center">
         {t('carSaleInfo.history.description1')}
       </p>
-      <p className="text-lg">
+      <p className="text-lg text-center">
         {t('carSaleInfo.history.description2')}
       </p>
 
       <h2 className="text-xl md:text-2xl font-bold mb-6 text-center">
         {t('carSaleInfo.whySell.title')} </h2>
-      <p className="text-lg">
+      <p className="text-lg text-center">
         {t('carSaleInfo.whySell.description')}
       </p>
 
       <h2 className="text-xl md:text-2xl font-bold mb-6 text-center">
         {t('carSaleInfo.whyBuy.title')}
       </h2>
-      <p className="text-lg">
+      <p className="text-lg text-center">
         {t('carSaleInfo.whyBuy.description')}
       </p>
 
       <h2 className="text-xl md:text-2xl font-bold mb-6 text-center">
         {t('carSaleInfo.doubts.title')}
       </h2>
-      <p className="text-lg">
+      <p className="text-lg text-center">
         {t('carSaleInfo.doubts.description')}
       </p>
 
