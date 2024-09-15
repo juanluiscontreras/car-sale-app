@@ -13,6 +13,7 @@ import PromotionBanner from './components/PromotionBanner';
 import Highlights from './components/Highlights';
 import Price from './components/Price';
 import PanoramicGallery from './components/PanoramicGallery';
+import CarImageCarousel from './components/CarImageCarousel';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -38,6 +39,10 @@ export default function Home() {
 
         <section className="section py-8">
           <PanoramicGallery />
+        </section>
+
+        <section className="section py-8">
+          <CarImageCarousel />
         </section>
 
         <section className="section py-8">

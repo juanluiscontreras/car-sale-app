@@ -18,3 +18,8 @@ img {
         padding: env(safe-area-inset);
     }
 }
+
+.swiper-slide {
+    height: 400px; /* Adjust as per your panoramic view size */
+  }
+  
