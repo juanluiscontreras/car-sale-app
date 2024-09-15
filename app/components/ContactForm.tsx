@@ -16,6 +16,12 @@ const ContactForm = () => {
     });
   };
 
+  const templateParams = {
+    name: formState.name,
+    email: formState.email,
+    message: `I want a car visit\nName: ${formState.name}\nEmail: ${formState.email}\n${formState.message}`,
+  };
+
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
@@ -23,7 +29,7 @@ const ContactForm = () => {
       .send(
         process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!, // Replace with your EmailJS service ID
         process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!, // Replace with your EmailJS template ID
-        formState,
+        templateParams,
         process.env.NEXT_PUBLIC_EMAILJS_USER_ID! // Replace with your EmailJS user ID
       )
       .then(
