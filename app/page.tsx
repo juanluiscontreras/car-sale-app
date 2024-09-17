@@ -10,10 +10,11 @@ import CarSaleInfo from './components/CarSaleInfo';
 import Maintenance from './components/Mainteinance';
 import Banner from './components/Banner';
 import PromotionBanner from './components/PromotionBanner';
-import Highlights from './components/Highlights';
 import Price from './components/Price';
 import PanoramicGallery from './components/PanoramicGallery';
 import CarImageCarousel from './components/CarImageCarousel';
+import MiniCard from './components/CarFeatures';
+import CarFeatures from './components/CarFeatures';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -46,7 +47,7 @@ export default function Home() {
         </section>
 
         <section className="section py-8">
-          <Highlights />
+          <CarFeatures />
         </section>
 
         <section className="section py-8">

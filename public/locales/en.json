@@ -77,12 +77,6 @@
     "title": "Aesthetic Details",
     "description": "Get to know every aspect of this car. Here we show its aesthetic details, marks that tell its story without affecting its performance."
   },
-  "highlights": {
-    "title": "Why is it your next car?",
-    "point1": "Reliable engine, low consumption in the city and on the road.",
-    "point2": "Minimal costs for tax and insurance.",
-    "point3": "Maintenance up to date for its age and mileage."
-  },
   "contactForm": {
     "title": "Contact Us",
     "nameLabel": "Name:",
@@ -91,5 +85,18 @@
     "submitButton": "Send",
     "successMessage": "Your message has been sent!",
     "errorMessage": "There was an error, please try again or contact us via WhatsApp."
+  },
+  "features": {
+    "title": "Why is it your next car?",
+    "spareWheel": "Original spare tire + Extra complete original wheel",
+    "security": "Airbags - ABS - ISOFIX mounts",
+    "antifog": "Front fog lights",
+    "electricWindows": "Electric windows and mirrors, central locking",
+    "foldableSeats": "Rear seats fold in two positions to increase trunk capacity",
+    "bluetoothRadio": "Bluetooth radio",
+    "chainEngine": "Relable engine with timing chain",
+    "point1": "Low consumption in the city and on the road",
+    "point2": "Minimal tax and insurance costs",
+    "point3": "Maintenance up to date for its age and mileage"
   }
 }

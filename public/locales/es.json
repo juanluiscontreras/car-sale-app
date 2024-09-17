@@ -77,12 +77,6 @@
     "title": "Detalles estéticos",
     "description": "Conoce cada aspecto de este auto. Aquí te mostramos sus detalles estéticos, marcas que narran su historia sin afectar su rendimiento."
   },
-  "highlights": {
-    "title": "¿Por qué es tu próximo auto?",
-    "point1": "Motor confiable, bajo consumo en ciudad y ruta.",
-    "point2": "Costos mínimos de patente y seguro.",
-    "point3": "Mantenimiento al día acorde a sus años y kilometraje."
-  },
   "contactForm": {
     "title": "Contáctanos",
     "nameLabel": "Nombre:",
@@ -91,5 +85,18 @@
     "submitButton": "Enviar",
     "successMessage": "¡Tu mensaje ha sido enviado!",
     "errorMessage": "Hubo un error, inténtalo de nuevo o contáctanos por Whatsapp."
+  },
+  "features": {
+    "title": "¿Por qué es tu próximo coche?",
+    "spareWheel": "Auxilio original + Rueda Original Completa Extra",
+    "security": "Airbags - ABS - Ganchos ISOFIX",
+    "antifog": "Faros antiniebla delanteros",
+    "electricWindows": "Alzacristales eléctricos, espejos eléctricos, cierre centralizado",
+    "foldableSeats": "Asientos traseros abatibles en dos posiciones",
+    "bluetoothRadio": "Radio con Bluetooth",
+    "chainEngine": "Motor con cadena de distribución",
+    "point1": "Bajo consumo en ciudad y carretera",
+    "point2": "Costes mínimos de impuestos y seguro",
+    "point3": "Mantenimiento al día para sus años y kilometraje"
   }
 }
