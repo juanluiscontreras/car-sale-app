@@ -13,7 +13,6 @@ import PromotionBanner from './components/PromotionBanner';
 import Price from './components/Price';
 import PanoramicGallery from './components/PanoramicGallery';
 import CarImageCarousel from './components/CarImageCarousel';
-import MiniCard from './components/CarFeatures';
 import CarFeatures from './components/CarFeatures';
 
 export default function Home() {
