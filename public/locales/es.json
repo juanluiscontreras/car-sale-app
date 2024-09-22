@@ -98,5 +98,12 @@
     "point1": "Bajo consumo en ciudad y carretera",
     "point2": "Costes mínimos de impuestos y seguro",
     "point3": "Mantenimiento al día para sus años y kilometraje"
+  },
+  "offer": {
+    "title": "Hacer una oferta",
+    "yourOffer": "Tu Oferta",
+    "sendOffer": "Enviar oferta por WhatsApp",
+    "whatsappMessage": "Hola, quiero hacer una oferta de ${{offer}} por el coche porque...",
+    "tip": "Consejo: ¡Usa el deslizador para ajustar tu oferta y envía tu oferta directamente por WhatsApp!"
   }
 }

@@ -14,6 +14,8 @@ import Price from './components/Price';
 import PanoramicGallery from './components/PanoramicGallery';
 import CarImageCarousel from './components/CarImageCarousel';
 import CarFeatures from './components/CarFeatures';
+import MakeAnOffer from './components/MakeAnOffer';
+import CarVideos from './components/CarVideos';
 
 export default function Home() {
   const { t } = useTranslation();
@@ -70,8 +72,14 @@ export default function Home() {
         </section>
 
         <section className="section py-8">
+          <CarVideos />
+        </section>
+        
+        <section className="section py-8">
           <PromotionBanner />
         </section>
+
+
       </main>
     </>
   );

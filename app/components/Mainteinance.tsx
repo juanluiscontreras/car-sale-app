@@ -7,8 +7,7 @@ const Maintenance = () => {
   const { t } = useTranslation();
 
   return (
-    <section className="bg-gray-50 py-12">
-      <div className="max-w-4xl mx-auto text-center px-6">
+      <div className="max-w-3xl mx-auto p-6 bg-white rounded-lg shadow-lg space-y-8">
         <h1 className="text-3xl md:text-5xl font-bold mb-8 text-center">{t('maintenance.title')}</h1>
         <p className="mb-6 text-lg">{t('maintenance.description')}</p>
         
@@ -21,7 +20,6 @@ const Maintenance = () => {
 
         <p className="mt-8 text-lg font-semibold">{t('maintenance.vtv')}</p>
       </div>
-    </section>
   );
 };
 

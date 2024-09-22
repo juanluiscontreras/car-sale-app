@@ -14,7 +14,6 @@ const CarImageCarousel = () => {
   const images = Array.from({ length: 9 }, (_, i) => `/images/car${i + 1}.jpg`);
 
   return (
-    <section className="py-12 bg-white">
       <div className="max-w-6xl mx-auto px-6">
         <Swiper
           modules={[EffectFade, Navigation, Pagination, Autoplay]}
@@ -40,7 +39,6 @@ const CarImageCarousel = () => {
           ))}
         </Swiper>
       </div>
-    </section>
   );
 };
 
