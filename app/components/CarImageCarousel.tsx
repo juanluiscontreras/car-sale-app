@@ -11,7 +11,7 @@ import { EffectFade, Navigation, Pagination, Autoplay } from 'swiper/modules';
 import React from 'react';
 
 const CarImageCarousel = () => {
-  const images = Array.from({ length: 9 }, (_, i) => `/images/car${i + 1}.jpg`);
+  const images = Array.from({ length: 13 }, (_, i) => `/images/car${i + 1}.jpg`);
 
   return (
       <div className="max-w-6xl mx-auto px-6">
