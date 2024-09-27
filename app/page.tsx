@@ -68,11 +68,11 @@ export default function Home() {
         </section>
 
         <section className="section py-8">
-          <ContactForm />
+          <CarVideos />
         </section>
 
         <section className="section py-8">
-          <CarVideos />
+          <ContactForm />
         </section>
         
         <section className="section py-8">

@@ -1,12 +1,13 @@
 'use client'; // Add this line at the top
 import { useTranslation } from 'react-i18next';
-import { FaCarSide, FaCogs, FaShieldAlt, FaLightbulb, FaWifi, FaLock, FaWrench, FaCheck, FaBluetooth, FaLuggageCart, FaSuitcase, FaSuitcaseRolling, FaGasPump, FaMoneyBill } from 'react-icons/fa';
+import { FaCarSide, FaCogs, FaShieldAlt, FaLightbulb, FaLock, FaWrench, FaCheck, FaBluetooth, FaSuitcaseRolling, FaGasPump, FaMoneyBill } from 'react-icons/fa';
+import { GiCarWheel } from "react-icons/gi";
 
 const CarFeatures = () => {
   const { t } = useTranslation();
 
   const features = [
-    { icon: <FaCarSide />, text: t('features.spareWheel') },
+    { icon: <GiCarWheel />, text: t('features.spareWheel') },
     { icon: <FaShieldAlt />, text: t('features.security') },
     { icon: <FaLightbulb />, text: t('features.antifog') },
     { icon: <FaLock />, text: t('features.electricWindows') },
@@ -16,11 +17,12 @@ const CarFeatures = () => {
     { icon: <FaGasPump />, text: t('features.point1') },
     { icon: <FaMoneyBill />, text: t('features.point2') },
     { icon: <FaCheck />, text: t('features.point3') },
+    { icon: <FaCarSide />, text: t('features.point4') },
   ];
 
   return (
     <div className="max-w-6xl mx-auto px-4">
-      <h1 className="text-3xl md:text-4xl font-bold mb-6 text-center text-gray-800">
+      <h1 className="text-3xl md:text-5xl font-bold mb-4 text-center">
         {t('features.title')}
       </h1>
       <div className="grid grid-cols-3 gap-4 sm:grid-cols-3 lg:grid-cols-3">

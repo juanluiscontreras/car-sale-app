@@ -15,8 +15,6 @@ const CarSpecs: React.FC = () => {
 			<h1 className="text-3xl md:text-5xl font-bold mb-4 text-center">
 				{t('carSpecs.title')}
 			</h1>
-			<h2 className="text-xl font-semibold mb-4">{t('carSpecs.subtitle')}</h2>
-
 			<div className="relative">
 				<button
 					onClick={toggleAccordion}

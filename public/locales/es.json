@@ -8,7 +8,28 @@
     "carPrice": "8,000 USD",
     "note": "Negociable"
   },
+  "features": {
+    "title": "¿Por qué es tu próximo coche?",
+    "spareWheel": "Auxilio original + Rueda Original Completa Extra",
+    "security": "Airbags - ABS - Ganchos ISOFIX - Alarma",
+    "antifog": "Faros antiniebla delanteros",
+    "electricWindows": "Alzacristales eléctricos, espejos eléctricos, cierre centralizado",
+    "foldableSeats": "Asientos traseros abatibles en dos posiciones",
+    "bluetoothRadio": "Radio con Bluetooth",
+    "chainEngine": "Motor con cadena de distribución",
+    "point1": "Bajo consumo en ciudad y carretera",
+    "point2": "Costes mínimos de impuestos y seguro",
+    "point3": "Mantenimiento al día para sus años y kilometraje",
+    "point4": "VTV vigente realizada en Septiembre 2024. Grabado de cristales y autopartes. Verificación policial."
+
+  },
+  "carSpecs": {
+    "title": "Especificaciones Técnicas",
+    "subtitle": "Todos los detalles del auto",
+    "detailsButton": "Ver especificaciones"
+  },
   "carSaleInfo": {
+    "title": "Acerca de este auto",
     "history": {
       "title": "Historia del auto",
       "description1": "Somos los segundos dueños de este vehículo, cuidadosamente mantenido por su primera familia propietaria. Siempre ha recibido los servicios correspondientes y se ha utilizado tanto en la ciudad como en viajes.",
@@ -33,8 +54,7 @@
       "firstCar": "Para ser tu primer auto: Simple, confiable y sin complicaciones.",
       "travel": "Para viajar: Estabilidad en ruta y un toque deportivo."
     },
-    "interested": "¿Te interesa?",
-    "contact": "Contáctame y coordinamos para que lo veas en persona."
+    "interested": "¿Te interesa no? Solamente te queda verlo y probarlo! Escribinos!"
   },
   "maintenance": {
     "title": "Mantenimiento realizado",
@@ -54,13 +74,7 @@
     "aug2024": {
       "title": "Agosto 2024:",
       "details": "Suspensión delantera nueva, bujes y alineación. Cambio de pastillas de freno y purgado del líquido."
-    },
-    "vtv": "VTV vigente realizada en Septiembre 2024. Grabado de cristales y autopartes. Verificación policial."
-  },
-  "carSpecs": {
-    "title": "Especificaciones Suzuki Swift 1.5 VVT 2007",
-    "subtitle": "Todos los detalles del auto",
-    "detailsButton": "Ver especificaciones"
+    }
   },
   "promotion": {
     "title": "¿Quieres una página como esta para tu coche?",
@@ -77,6 +91,9 @@
     "title": "Detalles estéticos",
     "description": "Conoce cada aspecto de este auto. Aquí te mostramos sus detalles estéticos, marcas que narran su historia sin afectar su rendimiento."
   },
+  "carVideos": {
+    "title": "Descubre las cualidades del auto en estos videos"
+  },
   "contactForm": {
     "title": "Contáctanos",
     "nameLabel": "Nombre:",
@@ -85,19 +102,6 @@
     "submitButton": "Enviar",
     "successMessage": "¡Tu mensaje ha sido enviado!",
     "errorMessage": "Hubo un error, inténtalo de nuevo o contáctanos por Whatsapp."
-  },
-  "features": {
-    "title": "¿Por qué es tu próximo coche?",
-    "spareWheel": "Auxilio original + Rueda Original Completa Extra",
-    "security": "Airbags - ABS - Ganchos ISOFIX",
-    "antifog": "Faros antiniebla delanteros",
-    "electricWindows": "Alzacristales eléctricos, espejos eléctricos, cierre centralizado",
-    "foldableSeats": "Asientos traseros abatibles en dos posiciones",
-    "bluetoothRadio": "Radio con Bluetooth",
-    "chainEngine": "Motor con cadena de distribución",
-    "point1": "Bajo consumo en ciudad y carretera",
-    "point2": "Costes mínimos de impuestos y seguro",
-    "point3": "Mantenimiento al día para sus años y kilometraje"
   },
   "offer": {
     "title": "Hacer una oferta",

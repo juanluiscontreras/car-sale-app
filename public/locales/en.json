@@ -8,36 +8,55 @@
     "carPrice": "8,000 USD",
     "note": "Negotiable"
   },
+  "features": {
+    "title": "Why is it your next car?",
+    "spareWheel": "Original spare + Complete extra original wheel",
+    "security": "Airbags - ABS - ISOFIX Hooks - Alarm",
+    "antifog": "Front fog lights",
+    "electricWindows": "Electric windows, electric mirrors, central locking",
+    "foldableSeats": "Foldable rear seats in two positions",
+    "bluetoothRadio": "Radio with Bluetooth",
+    "chainEngine": "Engine with timing chain",
+    "point1": "Low consumption in city and highway",
+    "point2": "Minimal tax and insurance costs",
+    "point3": "Maintenance up to date for its age and mileage",
+    "point4": "Current VTV done in September 2024. Glass and auto parts engraving. Police verification."
+  },
+  "carSpecs": {
+    "title": "Technical Specifications",
+    "subtitle": "All the car details",
+    "detailsButton": "See specifications"
+  },
   "carSaleInfo": {
+    "title": "About this car",
     "history": {
       "title": "Car History",
-      "description1": "We are the second owners of this vehicle, carefully maintained by its first family owners. It has always received proper services and has been used both in the city and for trips.",
-      "description2": "We continued to take care of it and have mainly used it in Buenos Aires and trips to the coast."
+      "description1": "We are the second owners of this vehicle, carefully maintained by its first family owners. It has always received the proper services and has been used both in the city and for trips.",
+      "description2": "We continued its care and have mainly used it in Capital Federal and getaways to the coast."
     },
     "whySell": {
       "title": "Reason for Sale",
-      "description": "We are selling this car because of a family opportunity that allowed us to get a newer model. It's time for someone else to enjoy it."
+      "description": "We are selling this car due to a family opportunity that allowed us to acquire a newer model. It's time for someone else to enjoy it."
     },
     "whyBuy": {
-      "title": "Why Buy It?",
-      "description": "This is our first car, so we explored multiple options to take care of our investment. Three different mechanics have approved it: great value for money and ready for many more miles."
+      "title": "Why buy it?",
+      "description": "It's our first car, so we explored multiple options to protect our investment. Three different mechanics vouch for it: excellent value for money and ready for many more kilometers."
     },
     "doubts": {
-      "title": "Why Choose a Japanese Car?",
-      "description": "While there are Mercosur models with fewer years or kilometers in its range, the quality and equipment of this vehicle is unparalleled. It has no noise, the materials are in perfect condition, and it has only required routine maintenance. It's ready to enjoy."
+      "title": "Why choose a Japanese car?",
+      "description": "While there may be models from Mercosur with fewer years or kilometers in its range, the quality and equipment of this vehicle is incomparable. No noises, materials in perfect condition, and it has only required routine maintenance. It's ready to enjoy."
     },
     "ideal": {
-      "title": "Who Is It Ideal For?",
-      "city": "For moving around the city: Low fuel consumption and easy to park.",
-      "kids": "For taking the kids: Surprising interior space.",
-      "firstCar": "For your first car: Simple, reliable, and hassle-free.",
+      "title": "Who is it ideal for?",
+      "city": "For getting around the city: Low consumption and easy to park.",
+      "kids": "For carrying the kids: Surprising interior space.",
+      "firstCar": "For being your first car: Simple, reliable, and hassle-free.",
       "travel": "For traveling: Stability on the road with a sporty touch."
     },
-    "interested": "Are you interested?",
-    "contact": "Contact me and we'll arrange for you to see it in person."
+    "interested": "Interested, right? You just need to see and test it! Write to us!"
   },
   "maintenance": {
-    "title": "Maintenance Performed",
+    "title": "Maintenance performed",
     "description": "We followed all recommendations to keep the car in perfect condition.",
     "dec2023": {
       "title": "December 2023:",
@@ -49,33 +68,30 @@
     },
     "feb2024": {
       "title": "February 2024:",
-      "details": "Cylinder head gasket replacement, new spark plugs, new battery, oil and filter changes."
+      "details": "Cylinder head gasket replacement, new spark plugs, new battery, oil, and filter change."
     },
     "aug2024": {
       "title": "August 2024:",
-      "details": "New front suspension, bushings, and alignment. Brake pad change and brake fluid bleeding."
-    },
-    "vtv": "Up-to-date technical inspection (VTV 09-2024). Glass and auto part engraving."
-  },
-  "carSpecs": {
-    "title": "Suzuki Swift 1.5 VVT 2007 Specifications",
-    "subtitle": "All the details of the car",
-    "detailsButton": "View specifications"
+      "details": "New front suspension, bushings, and alignment. Brake pad replacement and fluid bleeding."
+    }
   },
   "promotion": {
-    "title": "Do you want a page like this for your car?",
+    "title": "Want a page like this for your car?",
     "description": "Contact me and let's design an attractive page for your vehicle.",
     "contactButton": "Contact me",
     "modalTitle": "Contact Us",
     "modalName": "Name:",
     "modalEmail": "Email:",
-    "modalSubmit": "Send",
+    "modalSubmit": "Submit",
     "successMessage": "Your message has been sent!",
     "errorMessage": "There was an error, please try again or contact us via WhatsApp."
   },
   "carDetailsForFixGallery": {
     "title": "Aesthetic Details",
-    "description": "Get to know every aspect of this car. Here we show its aesthetic details, marks that tell its story without affecting its performance."
+    "description": "Discover every aspect of this car. Here we show its aesthetic details, marks that narrate its history without affecting its performance."
+  },
+  "carVideos": {
+    "title": "Discover the car's qualities in these videos"
   },
   "contactForm": {
     "title": "Contact Us",
@@ -86,17 +102,11 @@
     "successMessage": "Your message has been sent!",
     "errorMessage": "There was an error, please try again or contact us via WhatsApp."
   },
-  "features": {
-    "title": "Why is it your next car?",
-    "spareWheel": "Original spare tire + Extra complete original wheel",
-    "security": "Airbags - ABS - ISOFIX mounts",
-    "antifog": "Front fog lights",
-    "electricWindows": "Electric windows and mirrors, central locking",
-    "foldableSeats": "Rear seats fold in two positions to increase trunk capacity",
-    "bluetoothRadio": "Bluetooth radio",
-    "chainEngine": "Relable engine with timing chain",
-    "point1": "Low consumption in the city and on the road",
-    "point2": "Minimal tax and insurance costs",
-    "point3": "Maintenance up to date for its age and mileage"
+  "offer": {
+    "title": "Make an offer",
+    "yourOffer": "Your Offer",
+    "sendOffer": "Send offer via WhatsApp",
+    "whatsappMessage": "Hi, I want to make an offer of ${{offer}} for the car because...",
+    "tip": "Tip: Use the slider to adjust your offer and send it directly via WhatsApp!"
   }
 }
