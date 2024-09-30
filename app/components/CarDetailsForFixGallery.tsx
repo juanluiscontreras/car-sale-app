@@ -7,7 +7,13 @@ const CarDetailsForFixGallery = () => {
   const { t } = useTranslation();
   const [selectedImage, setSelectedImage] = useState<string | null>(null); // State for the selected image
 
-  const images = Array.from({ length: 5 }, (_, i) => `/images/details${i + 1}.jpeg`);
+  const images = [
+    { src: '/images/details1.jpeg', description: t('carDetailsForFixGallery.detail1') },
+    { src: '/images/details2.jpeg', description: t('carDetailsForFixGallery.detail2') },
+    { src: '/images/details3.jpeg', description: t('carDetailsForFixGallery.detail3') },
+    { src: '/images/details4.jpeg', description: t('carDetailsForFixGallery.detail4') },
+    { src: '/images/details5.jpeg', description: t('carDetailsForFixGallery.detail5') }
+  ];
 
   const handleImageClick = (src: string) => {
     setSelectedImage(src); // Set the selected image to be displayed in the modal
@@ -20,24 +26,26 @@ const CarDetailsForFixGallery = () => {
   return (
     <section className="py-12 bg-white">
       <div className="max-w-6xl mx-auto px-6">
-      <h1 className="text-3xl md:text-5xl font-bold mb-8 text-center">
+        <h1 className="text-3xl md:text-5xl font-bold mb-8 text-center">
           {t('carDetailsForFixGallery.title')}
         </h1>
         <p className="text-center mb-8 text-lg text-gray-600">
           {t('carDetailsForFixGallery.description')}
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {images.map((src, index) => (
-            <div
-              key={index}
-              onClick={() => handleImageClick(src)}
-              className="relative w-full h-64 bg-gray-200 rounded-lg overflow-hidden shadow-lg transition-transform duration-300 transform hover:scale-105 cursor-pointer"
-            >
-              <img
-                src={src}
-                alt={`Car image ${index + 1}`}
-                className="w-full h-full object-cover"
-              />
+          {images.map((image, index) => (
+            <div key={index} className="text-center">
+              <div
+                onClick={() => handleImageClick(image.src)}
+                className="relative w-full h-64 bg-gray-200 rounded-lg overflow-hidden shadow-lg transition-transform duration-300 transform hover:scale-105 cursor-pointer"
+              >
+                <img
+                  src={image.src}
+                  alt={`Car image ${index + 1}`}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <p className="mt-4 text-gray-700 text-sm">{image.description}</p> {/* Image description */}
             </div>
           ))}
         </div>

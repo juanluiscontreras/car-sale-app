@@ -93,7 +93,12 @@
   },
   "carDetailsForFixGallery": {
     "title": "Detalles estéticos",
-    "description": "Conoce cada aspecto de este auto. Aquí te mostramos sus detalles estéticos, marcas que narran su historia sin afectar su rendimiento."
+    "description": "Conoce los aspectos visuales del coche, con marcas que cuentan su historia.",
+    "detail1": "Hundimiento en el paragolpes plástico debido a un toque al estacionar.",
+    "detail2": "Preexistente: Raspones con columna en cochera. Rasguño con baúl de otro auto al estacionar, y roce con espejo retrovisor de otro vehículo.",
+    "detail3": "Preexistente: Reparación en el paragolpes plástico por golpe recibido estando estacionado, la soldadura se resintió y se abrió nuevamente.",
+    "detail4": "Parrilla inferior rota por impacto con un pájaro en la ruta.",
+    "detail5": "Detalle del paragolpes visto desde otro ángulo."
   },
   "carVideos": {
     "title": "Descubre las cualidades del auto en estos videos"

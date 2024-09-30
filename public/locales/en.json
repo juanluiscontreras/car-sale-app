@@ -92,7 +92,12 @@
   },
   "carDetailsForFixGallery": {
     "title": "Aesthetic Details",
-    "description": "Discover every aspect of this car. Here we show its aesthetic details, marks that narrate its history without affecting its performance."
+    "description": "Discover the visual aspects of the car, with marks that tell its story.",
+    "detail1": "Dent on the plastic bumper caused by a parking bump.",
+    "detail2": "Pre-existing: Scratches from a garage column, a scratch from another car's trunk while parking, and a scrape from another vehicle's side mirror.",
+    "detail3": "Pre-existing: Repair on the plastic bumper from a collision while parked, the weld weakened and split again.",
+    "detail4": "Lower grille broken by a bird impact on the road.",
+    "detail5": "Bumper detail seen from another angle."
   },
   "carVideos": {
     "title": "Discover the car's qualities in these videos"
