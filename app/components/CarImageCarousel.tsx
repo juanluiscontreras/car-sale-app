@@ -9,7 +9,7 @@ import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 import { Navigation, Pagination } from 'swiper/modules';
 
 const CarImageCarousel = () => {
-  const images = Array.from({ length: 13 }, (_, i) => `/images/car${i + 1}.jpg`);
+  const images = Array.from({ length: 15 }, (_, i) => `/images/car${i + 1}.jpg`);
 
   // State to track the image being zoomed
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
