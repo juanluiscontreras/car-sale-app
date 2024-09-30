@@ -18,6 +18,7 @@ const Maintenance = () => {
         <li><strong>{t('maintenance.jan2024.title')}</strong> {t('maintenance.jan2024.details')}</li>
         <li><strong>{t('maintenance.feb2024.title')}</strong> {t('maintenance.feb2024.details')}</li>
         <li><strong>{t('maintenance.aug2024.title')}</strong> {t('maintenance.aug2024.details')}</li>
+        <li><strong>{t('maintenance.sept2024.title')}</strong> {t('maintenance.sept2024.details')}</li>
       </ul>
     </div>
   );
