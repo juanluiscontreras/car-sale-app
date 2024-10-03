@@ -11,9 +11,9 @@
   "features": {
     "title": "¿Por qué es tu próximo coche?",
     "spareWheel": "Auxilio original + Rueda Original Completa Extra",
-    "security": "Airbags - ABS - Ganchos ISOFIX - Alarma",
+    "security": "Airbags - ABS - Ganchos ISOFIX - Alarma - Tuercas antirrobo",
     "antifog": "Faros antiniebla delanteros",
-    "electricWindows": "Alzacristales eléctricos, espejos eléctricos, cierre centralizado",
+    "electricWindows": "4 Alzacristales eléctricos, espejos eléctricos, cierre centralizado",
     "foldableSeats": "Asientos traseros abatibles en dos posiciones",
     "bluetoothRadio": "Radio con Bluetooth",
     "chainEngine": "Motor con cadena de distribución",
@@ -61,23 +61,23 @@
     "description": "Hemos seguido todas las recomendaciones para mantener el auto en perfecto estado.",
     "dec2023": {
       "title": "Diciembre 2023:",
-      "details": "Cambio de embrague y kit de fuelles de semieje."
+      "details": "Cambio de embrague (SECO made in Korea) y kit de fuelles de semieje."
     },
     "jan2024": {
       "title": "Enero 2024:",
-      "details": "Dos neumáticos nuevos. Alineación y balanceo."
+      "details": "Dos neumáticos nuevos BRIDGESTONE ECOPIA EP150 (Quedando los 4 de la misma marca y modelo). Alineación y balanceo."
     },
     "feb2024": {
       "title": "Febrero 2024:",
-      "details": "Cambio de junta de tapa de cilindros, bujías nuevas, batería nueva, y cambio de aceites y filtros."
+      "details": "Cambio de junta de tapa de cilindros, bujías nuevas, batería MOURA nueva , y cambio de aceites y filtros."
     },
     "aug2024": {
       "title": "Agosto 2024:",
-      "details": "Suspensión delantera nueva, bujes y alineación. Cambio de pastillas de freno y purgado del líquido."
+      "details": "Suspensión delantera nueva (OEM - brand for Suzuki and Toyota), bujes y alineación. Cambio de pastillas de freno y purgado del líquido."
     },
     "sept2024": {
       "title": "Septiembre 2024:",
-      "details": "Nuevo pomo de la palanca de cambios."
+      "details": "Nuevo pomo de la palanca de cambios. (OEM)"
     }
   },
   "promotion": {
@@ -95,8 +95,8 @@
     "title": "Detalles estéticos",
     "description": "Conoce los aspectos visuales del coche, con marcas que cuentan su historia.",
     "detail1": "Hundimiento en el paragolpes plástico debido a un toque al estacionar.",
-    "detail2": "Preexistente: Raspones con columna en cochera. Rasguño con baúl de otro auto al estacionar, y roce con espejo retrovisor de otro vehículo.",
-    "detail3": "Preexistente: Reparación en el paragolpes plástico por golpe recibido estando estacionado, la soldadura se resintió y se abrió nuevamente.",
+    "detail2": "Detalle Preexistente: Raspones con columna en cochera. Rasguño con baúl de otro auto al estacionar, y roce con espejo retrovisor de otro vehículo.",
+    "detail3": "Detalle Preexistente: Reparación en el paragolpes plástico por golpe recibido estando estacionado, la soldadura se resintió y se abrió nuevamente.",
     "detail4": "Parrilla inferior rota por impacto con un pájaro en la ruta.",
     "detail5": "Detalle del paragolpes visto desde otro ángulo."
   },
