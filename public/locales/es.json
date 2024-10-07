@@ -18,10 +18,10 @@
     "bluetoothRadio": "Radio con Bluetooth",
     "chainEngine": "Motor con cadena de distribución",
     "point1": "Bajo consumo en ciudad y carretera",
-    "point2": "Costes mínimos de impuestos y seguro",
+    "point2": "Costes mínimos de patentes y seguro",
     "point3": "Mantenimiento al día para sus años y kilometraje",
-    "point4": "VTV vigente realizada en Septiembre 2024. Grabado de cristales y autopartes. Verificación policial."
-
+    "point4": "VTV vigente realizada en Septiembre 2024. Grabado de cristales y autopartes. Verificación policial.",
+    "point5": "Sin multas. Sin deudas"
   },
   "carSpecs": {
     "title": "Especificaciones Técnicas",

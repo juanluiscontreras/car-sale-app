@@ -2,7 +2,6 @@
 import { useTranslation } from 'react-i18next';
 import { FaCarSide, FaCogs, FaShieldAlt, FaLightbulb, FaLock, FaWrench, FaCheck, FaBluetooth, FaSuitcaseRolling, FaGasPump, FaMoneyBill } from 'react-icons/fa';
 import { GiCarWheel } from "react-icons/gi";
-
 const CarFeatures = () => {
   const { t } = useTranslation();
 
@@ -18,6 +17,7 @@ const CarFeatures = () => {
     { icon: <FaMoneyBill />, text: t('features.point2') },
     { icon: <FaCheck />, text: t('features.point3') },
     { icon: <FaCarSide />, text: t('features.point4') },
+    { icon: <FaMoneyBill />, text: t('features.point5')}
   ];
 
   return (
