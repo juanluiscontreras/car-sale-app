@@ -7,7 +7,7 @@ const CarVideos = () => {
   const { t } = useTranslation();
   // Replace with your own video IDs and start times (in seconds)
   const videos = [
-    { videoId: 'VJ6xx8EAelg', startTime: 0 },
+    { videoId: 'uAf4cDT1ddA', startTime: 0 },
     { videoId: 'VJ6xx8EAelg', startTime: 376 }, // Start at 10 seconds
     { videoId: 'b_s0KIA1Gqc', startTime: 0 }, // Start at 20 seconds
   ];
