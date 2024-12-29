@@ -6,7 +6,8 @@
   "price": {
     "label": "Price",
     "carPrice": "7,400 USD",
-    "note": "Negotiable"
+    "note": "Negotiable - USD o Pesos",
+    "carPriceValueUSD": "7400"
   },
   "features": {
     "title": "Why is it your next car?",
